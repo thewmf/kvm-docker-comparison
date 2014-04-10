@@ -1,0 +1,9 @@
+This is Intel-optimized Linpack version 11.1.2.005 from
+http://software.intel.com/en-us/articles/intel-math-kernel-library-linpack-download
+
+VM
+    packer build vm.json
+    Inside the VM, run /bin/runme_xeon64 then copy out the _____ file
+
+Docker
+    TBD
