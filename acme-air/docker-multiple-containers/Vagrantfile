@@ -1,0 +1,22 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "chef/ubuntu-13.10"
+
+  config.vm.provider "virtualbox" do |v|
+    v.name = "Spyre_multiple_containers"
+    v.memory = 1024
+  end
+
+  config.vm.provision "shell", path: "pre-docker.sh"
+
+  config.vm.provision "docker" do |d|
+    d.build_image "/vagrant/empty",
+      args: "-t empty"
+  end
+
+  config.vm.provision "shell", path: "post-docker.sh"
+end
