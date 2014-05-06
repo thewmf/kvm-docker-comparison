@@ -34,7 +34,7 @@ export KMP_AFFINITY=nowarnings,compact,1,0,granularity=fine
 arch=xeon64
 {
   date
-  /bin/xlinpack_$arch /bin/lininput_$arch
+  ./xlinpack_$arch lininput_$arch
   echo -n "Done: "
   date
 } | tee lin_$arch.txt
