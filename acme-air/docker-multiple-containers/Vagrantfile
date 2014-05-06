@@ -16,6 +16,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision "docker" do |d|
     d.build_image "/vagrant/empty",
       args: "-t empty"
+    d.build_image "/vagrant/mongodb",
+      args: "-t mongodb"
   end
 
   config.vm.provision "shell", path: "post-docker.sh"
