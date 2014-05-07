@@ -1,0 +1,4 @@
+docker build -t acme-air-mongodb .
+docker build -t acme-air-acmeair .
+docker run -d -p 22 --name acme-mongodb acme-air-mongodb
+docker run -t -i -p 3000:3000 -p 22 -d --link acme-mongodb:db --name acme-air acme-air-acmeair
