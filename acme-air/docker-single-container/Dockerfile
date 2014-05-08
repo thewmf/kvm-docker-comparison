@@ -16,7 +16,7 @@ RUN echo 'root:screencast' |chpasswd
 RUN echo 'acme-air:screencast' |chpasswd
 RUN su acme-air -c "mkdir /home/acme-air/code;cd /home/acme-air/code;git clone https://github.com/acmeair/acmeair.git;echo 'export ACMEAIR_SRCDIR=/home/acme-air/code/acmeair' >> /home/acme-air/.bash_profile;cat /home/acme-air/.bash_profile"
 RUN su -l acme-air -c "cd \$ACMEAIR_SRCDIR/acmeair-webapp-nodejs;sed -e 's/3.0.0beta7/3.3.7/' package.json  > package.json.new; mv package.json.new package.json;npm update" 
-RUN bash -c "/etc/init.d/mongodb start;cd /home/acme-air/code/acmeair/acmeair-webapp-nodejs/loader;node loader;/etc/init.d/mongodb stop" 
+RUN bash -c "su mongodb -s /bin/bash -c '/usr/bin/mongod --fork --unixSocketPrefix=/var/run/mongodb --smallfiles --config /etc/mongodb.conf';su acme-air -c 'cd /home/acme-air/code/acmeair/acmeair-webapp-nodejs/loader;node loader'" 
 
 EXPOSE 3000
 EXPOSE 22
