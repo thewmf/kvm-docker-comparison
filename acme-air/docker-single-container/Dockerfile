@@ -14,7 +14,7 @@ RUN apt-get install -y openssh-server nodejs nodejs-legacy mongodb git screen np
 RUN useradd -m acme-air -s /bin/bash
 RUN echo 'root:screencast' |chpasswd
 RUN echo 'acme-air:screencast' |chpasswd
-RUN su acme-air -c "mkdir /home/acme-air/code;cd /home/acme-air/code;git clone https://github.com/acmeair/acmeair.git;echo 'export ACMEAIR_SRCDIR=/home/acme-air/code/acmeair' >> /home/acme-air/.bash_profile;cat /home/acme-air/.bash_profile"
+RUN su acme-air -c "mkdir /home/acme-air/code;cd /home/acme-air/code;git clone https://github.com/acmeair/acmeair.git;cd acmeair;git checkout 76a9f35d9976c6aef84f1bfb05b59bafed8e410e;echo 'export ACMEAIR_SRCDIR=/home/acme-air/code/acmeair' >> /home/acme-air/.bash_profile"
 RUN su -l acme-air -c "cd \$ACMEAIR_SRCDIR/acmeair-webapp-nodejs;sed -e 's/3.0.0beta7/3.3.7/' package.json  > package.json.new; mv package.json.new package.json;npm update" 
 RUN bash -c "su mongodb -s /bin/bash -c '/usr/bin/mongod --fork --unixSocketPrefix=/var/run/mongodb --smallfiles --config /etc/mongodb.conf';su acme-air -c 'cd /home/acme-air/code/acmeair/acmeair-webapp-nodejs/loader;node loader'" 
 
