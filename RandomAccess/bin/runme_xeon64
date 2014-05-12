@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "About to start stream"
+
+export KMP_AFFINITY=nowarnings,compact,1,0,granularity=fine
+
+# No parameters - stream reads /proc/meminfo and tries to use a large fraction of total_mem
+/bin/gups.exe
