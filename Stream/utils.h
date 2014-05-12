@@ -7,6 +7,8 @@
 typedef struct _HPCC_Params {
 	char nowASCII[128];
 	char *outFname;
+	uint64_t HPLMaxProcMem;
+	int StreamThreads;
 
 } HPCC_Params;
 
@@ -26,3 +28,4 @@ typedef struct _HPCC_Params {
 uint64_t		HPCC_LocalVectorSize (void *unused, int num, int size, int dummy);
 HPCC_Params	* initialize ();
 double	GetTime ();
+

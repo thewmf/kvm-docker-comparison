@@ -10,8 +10,8 @@
 #define  GiBYTE   1073741824L
 
 
-int mem_total, mem_free;
-
+static int mem_total, mem_free;
+static uint64_t maxprocmem;
 
 void
 get_mem_info( void )
@@ -157,7 +157,12 @@ GetTime ()
 
 HPCC_Params *
 initialize () {
+	get_mem_info();
+	maxprocmem = ((uint64_t) mem_total) * 1024 / 2;
+
     HPCC_Params *params = (HPCC_Params *) malloc (sizeof (HPCC_Params));
+	
+	params->HPLMaxProcMem = maxprocmem;
 	getASCIITime (params->nowASCII, sizeof(params->nowASCII)-1);
 	params->outFname = OUTFNAME;
 	return params;
@@ -166,9 +171,8 @@ initialize () {
 
 uint64_t
 HPCC_LocalVectorSize (void *unused, int num, int size, int dummy) {
-	get_mem_info();
 	// printf ("mem_total = %d, mem_free = %d\n", mem_total, mem_free);
-	uint64_t totveclen = ((uint64_t) mem_total) / 2 * 1024 / size;
+	uint64_t totveclen = maxprocmem / size;
 
 	/* Pick a vector length that is 1/(num + 1)th of this amount */
 
