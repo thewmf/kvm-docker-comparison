@@ -1,0 +1,7 @@
+This is nuttcp, a versatile network microbenchmark
+
+VM (run on arldcn24)
+	./vm.sh
+
+Docker (run anywhere; it will ssh to the testbed)
+	./docker.sh
