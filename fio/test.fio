@@ -1,0 +1,81 @@
+[global]
+ioengine=libaio
+direct=1
+size=16g
+group_reporting
+filename=/ferrari/fio-test-file
+
+[sequential-fill]
+description=Sequential fill phase
+rw=write
+iodepth=16
+bs=1M
+
+[seq-read]
+rw=read
+bs=1M
+stonewall
+
+[random-write-1]
+stonewall
+description=Random write steady state phase
+rw=randwrite
+bs=4K
+iodepth=1
+numjobs=4
+
+[random-write-2]
+stonewall
+description=Random write steady state phase
+rw=randwrite
+bs=4K
+iodepth=2
+numjobs=4
+
+[random-write-4]
+stonewall
+description=Random write steady state phase
+rw=randwrite
+bs=4K
+iodepth=4
+numjobs=4
+
+[random-write-8]
+stonewall
+description=Random write steady state phase
+rw=randwrite
+bs=4K
+iodepth=8
+numjobs=4
+
+[random-write-16]
+stonewall
+description=Random write steady state phase
+rw=randwrite
+bs=4K
+iodepth=16
+numjobs=4
+
+[random-write-32]
+stonewall
+description=Random write steady state phase
+rw=randwrite
+bs=4K
+iodepth=32
+numjobs=4
+
+[random-write-64]
+stonewall
+description=Random write steady state phase
+rw=randwrite
+bs=4K
+iodepth=64
+numjobs=4
+
+[random-write-128]
+stonewall
+description=Random write steady state phase
+rw=randwrite
+bs=4K
+iodepth=128
+numjobs=4
