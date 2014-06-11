@@ -6,4 +6,6 @@ MAINTAINER Wes Felter, wmf@us.ibm.com
 
 RUN apt-get install -y nuttcp
 
-ENTRYPOINT nuttcp
+ENTRYPOINT ["nuttcp"]
+# CMD [] works around a bug in old versions of Docker
+CMD []
