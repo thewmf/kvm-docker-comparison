@@ -3,6 +3,7 @@ ioengine=libaio
 direct=1
 size=16g
 group_reporting
+thread
 filename=/ferrari/fio-test-file
 
 [random-write-16x8]
