@@ -20,7 +20,7 @@ sudo umount /ferrari
 # start the VM & bind port 2222 on the host to port 22 in the VM
 # TODO use fancy virtio
 kvm -net nic -net user -hda $IMG -hdb $LIBDIR/seed.img \
-    -drive file=/dev/mapper/FlashSystem_840,if=virtio,cache=none,aio=native,vhost=on \
+    -drive file=/dev/mapper/FlashSystem_840,if=virtio,cache=none,aio=native \
     -m 96G -smp 16 -nographic -redir :2222::22 >$IMG.log &
 
 # remove the overlay (qemu will keep it open as needed)
@@ -32,7 +32,8 @@ ssh $SSHOPTS spyre@localhost sudo apt-get -qq install -y fio
 
 # mount /ferrari inside the VM
 ssh $SSHOPTS spyre@localhost "sudo sh -c 'mkdir /ferrari ; \
-                                          mount /dev/vda /ferrari'"
+                                          mount /dev/vda /ferrari ; \
+                                          chmod -R ugo+rwx /ferrari'"
 
 echo Running fio - this takes 5-10 minutes
 ssh $SSHOPTS spyre@localhost fio - < test.fio > results/vm.log
