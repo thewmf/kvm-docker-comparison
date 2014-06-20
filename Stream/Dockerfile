@@ -4,6 +4,8 @@ FROM tutum/ubuntu-saucy
 
 MAINTAINER Ram Rajamony, rajamon@us.ibm.com
 
-RUN apt-get install -y libgomp1
-ADD bin bin/
-CMD /bin/runme_xeon64
+RUN apt-get -qq install -y libgomp1
+ADD bin /
+
+# TODO: cat RESULTS so we can actually see it
+CMD /stream.exe

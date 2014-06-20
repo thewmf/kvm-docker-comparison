@@ -1,0 +1,37 @@
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-06-20:23:18:06 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 512861 microseconds.
+   (= 512861 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          36.1534       0.7430       0.7303       0.7524
+Scale:         36.0015       0.7571       0.7334       0.8128
+Add:           41.6848       1.0062       0.9501       1.1326
+Triad:         40.9190       0.9943       0.9679       1.0426
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
