@@ -4,6 +4,6 @@ FROM tutum/ubuntu-saucy
 
 MAINTAINER Wes Felter, wmf@us.ibm.com
 
-ADD bin bin/
+ADD bin /
 
-CMD /bin/runme_xeon64
+CMD /runme_xeon64
