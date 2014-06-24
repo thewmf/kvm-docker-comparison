@@ -4,6 +4,11 @@ FROM tutum/ubuntu-saucy
 
 MAINTAINER Wes Felter, wmf@us.ibm.com
 
-ADD bin /
+RUN apt-get -qq install -y fio
 
-CMD /runme_xeon64
+ADD test.fio /
+
+VOLUME ["/ferrari"]
+ENTRYPOINT ["fio"]
+# CMD [] works around a bug in old versions of Docker
+CMD []

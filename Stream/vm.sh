@@ -14,19 +14,23 @@ IMG=`mktemp tmpXXX.img`
 qemu-img create -f qcow2 -b $LIBDIR/ubuntu-13.10-server-cloudimg-amd64-disk1.img $IMG
 
 # start the VM & bind port 2222 on the host to port 22 in the VM
-kvm -net nic -net user -hda $IMG -hdb $LIBDIR/seed.img -m 96G -smp 16 -nographic -redir :2222::22 >$IMG.log &
+# TODO fix NUMA
+kvm -net nic -net user -hda $IMG -hdb $LIBDIR/seed.img -m 100G -smp 32 \
+    -nographic -redir :2222::22 >$IMG.log &
 
 # remove the overlay (qemu will keep it open as needed)
 sleep 2
 rm $IMG
 
+# build stream
+make
+
 # copy code in (we could use Ansible for this kind of thing, but...)
 rsync -a -e "ssh $SSHOPTS" bin/ spyre@localhost:~
 
-# run linpack
-ssh $SSHOPTS spyre@localhost ./runme_xeon64
-
-# TODO copy out results
+# run stream and copy out results
+ssh $SSHOPTS spyre@localhost "sudo apt-get -qq install -y libgomp1 && \
+                              ./stream.exe && cat RESULTS" > results/vm.log
 
 # shut down the VM
 ssh $SSHOPTS spyre@localhost sudo shutdown -h now

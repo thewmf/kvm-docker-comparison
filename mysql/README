@@ -1,0 +1,13 @@
+Some notes from Alex:
+
+to prepare the database:
+sysbench --test=oltp --oltp-table-size=2000000 --mysql-db=test --mysql-host=arldcn24 --mysql-user=admin --mysql-port=3306 --mysql-password=supervisor prepare
+
+It assumes that mysql is installed and running at port 3306. Hehehehe.
+and the password is supervisor.
+if you install the mysql using apt-get, thats the default password.
+The user is 'root' instead of admin
+and you should execute the command:
+mysql -uroot -psupervisor -h127.0.0.1 -P3306
+CREATE DATABASE test;
+For sysbench to run.
