@@ -118,7 +118,8 @@ HPCC_starts_LCG(s64Int n)
 
 
 /* Number of updates to table (suggested: 4x number of table entries) */
-#define NUPDATE (4 * TableSize)
+// #define NUPDATE (4 * TableSize)
+#define NUPDATE 10000000
 
 static void
 RandomAccessUpdate(u64Int TableSize, u64Int *Table) {
@@ -170,6 +171,7 @@ HPCC_RandomAccess(HPCC_Params *params, int doIO, double *GUPs, int *failure) {
     }
   }
   fprintf (outFile, "Generated on %s\n", params->nowASCII);
+  fflush (outFile);
 
   /* calculate local memory per node for the update table */
   totalMem = params->HPLMaxProcMem;
@@ -197,6 +199,7 @@ HPCC_RandomAccess(HPCC_Params *params, int doIO, double *GUPs, int *failure) {
   fprintf( outFile, "Main table size   = 2^" FSTR64 " = " FSTR64 " words\n", logTableSize,TableSize);
   fprintf( outFile, "Number of updates = " FSTR64 "\n", NUPDATE);
   }
+  fflush (outFile);
 
   /* Initialize main table */
   for (i=0; i<TableSize; i++) Table[i] = i;
@@ -219,6 +222,7 @@ HPCC_RandomAccess(HPCC_Params *params, int doIO, double *GUPs, int *failure) {
   fprintf( outFile, "CPU time used  = %.6f seconds\n", cputime);
   fprintf( outFile, "Real time used = %.6f seconds\n", realtime);
   fprintf( outFile, "%.9f Billion(10^9) Updates    per second [GUP/s]\n", *GUPs );
+  fflush (outFile);
   }
 #if PERCS_SANITY_CHECK_RUN_NO_VERIFY		// Significantly speed up run by not verifying. Run is NON-CONFORMANT but fails
 {double x = ((double) TableSize) * 0.1, y = pow (10, ceil (log10 (x))); temp = (s64Int) y; }
