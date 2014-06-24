@@ -1,0 +1,714 @@
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 10
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 9 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            2012864
+        write:                           0
+        other:                           287552
+        total:                           2300416
+    transactions:                        143776 (2396.10 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 2012864 (33545.38 per sec.)
+    other operations:                    287552 (4792.20 per sec.)
+
+Test execution summary:
+    total time:                          60.0042s
+    total number of events:              143776
+    total time taken by event execution: 598.7870
+    per-request statistics:
+         min:                                  3.02ms
+         avg:                                  4.16ms
+         max:                                 17.67ms
+         approx.  95 percentile:               5.57ms
+
+Threads fairness:
+    events (avg/stddev):           14377.6000/571.40
+    execution time (avg/stddev):   59.8787/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 20
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 19 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            3313758
+        write:                           0
+        other:                           473394
+        total:                           3787152
+    transactions:                        236697 (3944.68 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 3313758 (55225.52 per sec.)
+    other operations:                    473394 (7889.36 per sec.)
+
+Test execution summary:
+    total time:                          60.0041s
+    total number of events:              236697
+    total time taken by event execution: 1197.5794
+    per-request statistics:
+         min:                                  3.07ms
+         avg:                                  5.06ms
+         max:                                 16.37ms
+         approx.  95 percentile:               6.51ms
+
+Threads fairness:
+    events (avg/stddev):           11834.8500/279.77
+    execution time (avg/stddev):   59.8790/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 30
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 29 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            3822952
+        write:                           0
+        other:                           546136
+        total:                           4369088
+    transactions:                        273068 (4550.67 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 3822952 (63709.40 per sec.)
+    other operations:                    546136 (9101.34 per sec.)
+
+Test execution summary:
+    total time:                          60.0061s
+    total number of events:              273068
+    total time taken by event execution: 1797.1770
+    per-request statistics:
+         min:                                  3.56ms
+         avg:                                  6.58ms
+         max:                                 34.96ms
+         approx.  95 percentile:              10.16ms
+
+Threads fairness:
+    events (avg/stddev):           9102.2667/239.15
+    execution time (avg/stddev):   59.9059/0.00
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 40
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 39 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            4300436
+        write:                           0
+        other:                           614348
+        total:                           4914784
+    transactions:                        307174 (5119.06 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 4300436 (71666.80 per sec.)
+    other operations:                    614348 (10238.11 per sec.)
+
+Test execution summary:
+    total time:                          60.0060s
+    total number of events:              307174
+    total time taken by event execution: 2396.6560
+    per-request statistics:
+         min:                                  3.40ms
+         avg:                                  7.80ms
+         max:                                 41.73ms
+         approx.  95 percentile:              12.32ms
+
+Threads fairness:
+    events (avg/stddev):           7679.3500/149.87
+    execution time (avg/stddev):   59.9164/0.00
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 50
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 49 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            4972506
+        write:                           0
+        other:                           710358
+        total:                           5682864
+    transactions:                        355179 (5918.97 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 4972506 (82865.57 per sec.)
+    other operations:                    710358 (11837.94 per sec.)
+
+Test execution summary:
+    total time:                          60.0069s
+    total number of events:              355179
+    total time taken by event execution: 2995.9757
+    per-request statistics:
+         min:                                  3.41ms
+         avg:                                  8.44ms
+         max:                                 42.37ms
+         approx.  95 percentile:              13.81ms
+
+Threads fairness:
+    events (avg/stddev):           7103.5800/123.89
+    execution time (avg/stddev):   59.9195/0.00
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 60
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 59 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            5973646
+        write:                           0
+        other:                           853378
+        total:                           6827024
+    transactions:                        426689 (7110.58 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 5973646 (99548.06 per sec.)
+    other operations:                    853378 (14221.15 per sec.)
+
+Test execution summary:
+    total time:                          60.0077s
+    total number of events:              426689
+    total time taken by event execution: 3594.8013
+    per-request statistics:
+         min:                                  3.49ms
+         avg:                                  8.42ms
+         max:                                 64.25ms
+         approx.  95 percentile:              16.32ms
+
+Threads fairness:
+    events (avg/stddev):           7111.4833/374.16
+    execution time (avg/stddev):   59.9134/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 70
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 69 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            6477380
+        write:                           0
+        other:                           925340
+        total:                           7402720
+    transactions:                        462670 (7710.25 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 6477380 (107943.51 per sec.)
+    other operations:                    925340 (15420.50 per sec.)
+
+Test execution summary:
+    total time:                          60.0071s
+    total number of events:              462670
+    total time taken by event execution: 4194.0440
+    per-request statistics:
+         min:                                  3.58ms
+         avg:                                  9.06ms
+         max:                                 65.51ms
+         approx.  95 percentile:              18.31ms
+
+Threads fairness:
+    events (avg/stddev):           6609.5714/276.67
+    execution time (avg/stddev):   59.9149/0.00
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 80
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 79 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            6816446
+        write:                           0
+        other:                           973778
+        total:                           7790224
+    transactions:                        486889 (8113.20 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 6816446 (113584.73 per sec.)
+    other operations:                    973778 (16226.39 per sec.)
+
+Test execution summary:
+    total time:                          60.0120s
+    total number of events:              486889
+    total time taken by event execution: 4794.5587
+    per-request statistics:
+         min:                                  3.29ms
+         avg:                                  9.85ms
+         max:                                112.54ms
+         approx.  95 percentile:              24.34ms
+
+Threads fairness:
+    events (avg/stddev):           6086.1125/192.95
+    execution time (avg/stddev):   59.9320/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 90
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 89 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            6636490
+        write:                           0
+        other:                           948070
+        total:                           7584560
+    transactions:                        474035 (7899.13 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 6636490 (110587.78 per sec.)
+    other operations:                    948070 (15798.25 per sec.)
+
+Test execution summary:
+    total time:                          60.0111s
+    total number of events:              474035
+    total time taken by event execution: 5394.2682
+    per-request statistics:
+         min:                                  3.33ms
+         avg:                                 11.38ms
+         max:                                108.15ms
+         approx.  95 percentile:              28.08ms
+
+Threads fairness:
+    events (avg/stddev):           5267.0556/296.31
+    execution time (avg/stddev):   59.9363/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 100
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 99 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            6853756
+        write:                           0
+        other:                           979108
+        total:                           7832864
+    transactions:                        489554 (8157.66 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 6853756 (114207.18 per sec.)
+    other operations:                    979108 (16315.31 per sec.)
+
+Test execution summary:
+    total time:                          60.0116s
+    total number of events:              489554
+    total time taken by event execution: 5993.6494
+    per-request statistics:
+         min:                                  3.41ms
+         avg:                                 12.24ms
+         max:                                132.96ms
+         approx.  95 percentile:              30.40ms
+
+Threads fairness:
+    events (avg/stddev):           4895.5400/582.40
+    execution time (avg/stddev):   59.9365/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 110
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 109 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            7048370
+        write:                           0
+        other:                           1006910
+        total:                           8055280
+    transactions:                        503455 (8389.21 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 7048370 (117448.90 per sec.)
+    other operations:                    1006910 (16778.41 per sec.)
+
+Test execution summary:
+    total time:                          60.0122s
+    total number of events:              503455
+    total time taken by event execution: 6593.8971
+    per-request statistics:
+         min:                                  3.36ms
+         avg:                                 13.10ms
+         max:                                147.76ms
+         approx.  95 percentile:              34.02ms
+
+Threads fairness:
+    events (avg/stddev):           4576.8636/513.89
+    execution time (avg/stddev):   59.9445/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 120
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 119 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            7879732
+        write:                           0
+        other:                           1125676
+        total:                           9005408
+    transactions:                        562838 (9379.06 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 7879732 (131306.88 per sec.)
+    other operations:                    1125676 (18758.13 per sec.)
+
+Test execution summary:
+    total time:                          60.0100s
+    total number of events:              562838
+    total time taken by event execution: 7193.5470
+    per-request statistics:
+         min:                                  3.56ms
+         avg:                                 12.78ms
+         max:                                141.47ms
+         approx.  95 percentile:              31.37ms
+
+Threads fairness:
+    events (avg/stddev):           4690.3167/477.45
+    execution time (avg/stddev):   59.9462/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 130
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 129 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            8064140
+        write:                           0
+        other:                           1152020
+        total:                           9216160
+    transactions:                        576010 (9598.34 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 8064140 (134376.79 per sec.)
+    other operations:                    1152020 (19196.68 per sec.)
+
+Test execution summary:
+    total time:                          60.0114s
+    total number of events:              576010
+    total time taken by event execution: 7794.4658
+    per-request statistics:
+         min:                                  3.49ms
+         avg:                                 13.53ms
+         max:                                133.16ms
+         approx.  95 percentile:              34.84ms
+
+Threads fairness:
+    events (avg/stddev):           4430.8462/374.41
+    execution time (avg/stddev):   59.9574/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 140
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 139 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            8005564
+        write:                           0
+        other:                           1143652
+        total:                           9149216
+    transactions:                        571826 (9528.52 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 8005564 (133399.26 per sec.)
+    other operations:                    1143652 (19057.04 per sec.)
+
+Test execution summary:
+    total time:                          60.0121s
+    total number of events:              571826
+    total time taken by event execution: 8394.1350
+    per-request statistics:
+         min:                                  3.56ms
+         avg:                                 14.68ms
+         max:                                160.39ms
+         approx.  95 percentile:              44.22ms
+
+Threads fairness:
+    events (avg/stddev):           4084.4714/584.13
+    execution time (avg/stddev):   59.9581/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 150
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 149 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            8035272
+        write:                           0
+        other:                           1147896
+        total:                           9183168
+    transactions:                        573948 (9563.56 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 8035272 (133889.84 per sec.)
+    other operations:                    1147896 (19127.12 per sec.)
+
+Test execution summary:
+    total time:                          60.0141s
+    total number of events:              573948
+    total time taken by event execution: 8994.4479
+    per-request statistics:
+         min:                                  3.64ms
+         avg:                                 15.67ms
+         max:                                175.09ms
+         approx.  95 percentile:              43.75ms
+
+Threads fairness:
+    events (avg/stddev):           3826.3200/487.17
+    execution time (avg/stddev):   59.9630/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 160
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 159 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            7958258
+        write:                           0
+        other:                           1136894
+        total:                           9095152
+    transactions:                        568447 (9471.91 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 7958258 (132606.74 per sec.)
+    other operations:                    1136894 (18943.82 per sec.)
+
+Test execution summary:
+    total time:                          60.0140s
+    total number of events:              568447
+    total time taken by event execution: 9592.9578
+    per-request statistics:
+         min:                                  3.59ms
+         avg:                                 16.88ms
+         max:                                184.35ms
+         approx.  95 percentile:              46.22ms
+
+Threads fairness:
+    events (avg/stddev):           3552.7937/254.34
+    execution time (avg/stddev):   59.9560/0.01
+
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+No DB drivers specified, using mysql
+Running the test with following options:
+Number of threads: 170
+
+Doing OLTP test.
+Running mixed OLTP test
+Doing read-only test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 169 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            8054970
+        write:                           0
+        other:                           1150710
+        total:                           9205680
+    transactions:                        575355 (9586.37 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 8054970 (134209.15 per sec.)
+    other operations:                    1150710 (19172.74 per sec.)
+
+Test execution summary:
+    total time:                          60.0180s
+    total number of events:              575355
+    total time taken by event execution: 10193.8437
+    per-request statistics:
+         min:                                  3.23ms
+         avg:                                 17.72ms
+         max:                                196.29ms
+         approx.  95 percentile:              49.24ms
+
+Threads fairness:
+    events (avg/stddev):           3384.4412/398.05
+    execution time (avg/stddev):   59.9638/0.01
+
