@@ -7,7 +7,12 @@ make
 docker build -t stream .
 
 echo Running stream
-docker run --rm stream > results/docker.log
+docker run stream
+# can't get this stuff to work and can't find docs anywhere
+#ID=$(docker run stream)
+#docker cp $ID:/RESULTS results/
+#mv results/RESULTS results/docker.log
+#docker rm $ID
 
 wait
 echo Experiment completed
