@@ -1,0 +1,7 @@
+Generated on 2014-06-24:21:11:58 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 10000000
+CPU time used  = 0.931649 seconds
+Real time used = 0.931649 seconds
+0.010733656 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).

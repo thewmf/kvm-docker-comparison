@@ -1,0 +1,12 @@
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-06-24:21:27:57 GMT
+Main table size   = 2^32 = 4294967296 words
+Number of updates = 10000000
+CPU time used  = 3.897935 seconds
+Real time used = 3.897938 seconds
+0.002565459 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 4294967296 locations (passed).

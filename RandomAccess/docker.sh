@@ -4,10 +4,13 @@
 
 # build the container 
 make
+docker rm gups
 docker build -t gups .
 
 echo Running gups
-docker run --rm gups > results/docker.log
+docker run gups
+docker cp gups:/RESULTS results/docker.log
+docker rm gups
 
 wait
 echo Experiment completed
