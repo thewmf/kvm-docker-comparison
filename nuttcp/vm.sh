@@ -21,7 +21,11 @@ qemu-img create -f qcow2 -b $LIBDIR/ubuntu-13.10-server-cloudimg-amd64-disk1.img
 
 # start the VM & bind port 2222 on the host to port 22 in the VM
 # TODO use fancy virtio
-kvm -net nic -net user -hda $IMG -hdb $LIBDIR/seed.img -m 96G -smp 16 -nographic -redir :2222::22 >$IMG.log &
+kvm -hda $IMG -hdb $LIBDIR/seed.img -m 96G -smp 16 -nographic -redir :2222::22 \
+    -netdev tap,id=hostnet0,vhost=on
+#    -netdev tap,fd=23,id=hostnet0,vhost=on,vhostfd=24 \
+#    -device virtio-net-pci,tx=bh,ioeventfd=on,event_idx=on,netdev=hostnet0,id=net0,mac=52:54:00:ba:4f:3d,bus=pci.0,addr=0x3 \
+    >$IMG.log &
 
 # remove the overlay (qemu will keep it open as needed)
 sleep 2
@@ -33,10 +37,12 @@ ssh $SERVER nuttcp -S &
 # install nuttcp
 ssh $SSHOPTS spyre@localhost sudo apt-get -qq install -y nuttcp
 
+ssh $SSHOPTS spyre@localhost ifconfig -a
+
 echo "transmit client->server"
-ssh $SSHOPTS spyre@localhost nuttcp -l8000 -t -w4m -i1 -N4 10.71.0.23
+ssh $SSHOPTS spyre@localhost nuttcp -l8000 -t -w4m -i1 -N1 10.71.0.28
 echo "receive server->client (this matters because we only measure the client)"
-ssh $SSHOPTS spyre@localhost nuttcp -l8000 -r -w4m -i1 -N4 10.71.0.23
+ssh $SSHOPTS spyre@localhost nuttcp -l8000 -r -w4m -i1 -N1 10.71.0.28
 
 # TODO copy out results
 
