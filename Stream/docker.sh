@@ -7,8 +7,8 @@ make
 docker build -t stream .
 
 echo Running stream
-set now=`date "+%s"`
-mv results/docker.log results/docker.log.$now
+now=`date "+%s"`
+mv results/docker.log results/docker.log.placedHere.$now
 docker run stream > results/docker.log
 # can't get this stuff to work and can't find docs anywhere
 #ID=$(docker run stream)
