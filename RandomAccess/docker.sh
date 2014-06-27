@@ -8,9 +8,9 @@ docker rm gups
 docker build -t gups .
 
 echo Running gups
-docker run gups
-docker cp gups:/RESULTS results/docker.log
+now=`date "+%s"`
+mv results/docker.log results/docker.log.placedHere.$now
+docker run gups > results/docker.log
 docker rm gups
 
-wait
 echo Experiment completed
