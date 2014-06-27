@@ -176,7 +176,7 @@ HPCC_RandomAccess(HPCC_Params *params, int doIO, double *GUPs, int *failure) {
 
   /* calculate local memory per node for the update table */
   totalMem = params->HPLMaxProcMem;
-  totalMem = 4294967296ULL * sizeof(u64Int);		// OVERRIDING TO BE CONSTANT
+  totalMem = 4294967296ULL * 2 * sizeof(u64Int);		// OVERRIDING TO BE CONSTANT
 
   totalMem /= sizeof(u64Int);
 
