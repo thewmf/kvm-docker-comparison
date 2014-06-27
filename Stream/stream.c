@@ -61,7 +61,7 @@
  *          that should be good to about 5% precision.
  */
 
-static uint64_t VectorSize;
+static uint64_t VectorSize = 1650163200;
 # define N 2000000
 # define NTIMES 10
 # define OFFSET 0
@@ -256,7 +256,8 @@ HPCC_Stream(HPCC_Params *params, int doIO, double *copyGBs, double *scaleGBs, do
       }
     }
 
-    VectorSize = HPCC_LocalVectorSize( params, 3, sizeof(double), 0 ); /* Need 3 vectors */
+    // VectorSize = HPCC_LocalVectorSize( params, 3, sizeof(double), 0 ); /* Need 3 vectors */
+	// HARDCODED VectorSize
     // params->StreamVectorSize = VectorSize;
 
     a = HPCC_XMALLOC( double, VectorSize );
