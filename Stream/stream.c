@@ -247,7 +247,8 @@ HPCC_Stream(HPCC_Params *params, int doIO, double *copyGBs, double *scaleGBs, do
     double GiBs = 1073741824.0, curGBs;
 
     if (doIO) {
-      outFile = fopen( params->outFname, "w+" );
+      // outFile = fopen( params->outFname, "w+" );
+	  outFile = stdout;
       if (! outFile) {
         outFile = stderr;
         fprintf( outFile, "Cannot open output file.\n" );
