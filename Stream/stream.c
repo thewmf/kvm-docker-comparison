@@ -290,6 +290,7 @@ HPCC_Stream(HPCC_Params *params, int doIO, double *copyGBs, double *scaleGBs, do
              (3.0 * BytesPerWord) * ( (double) VectorSize / GiBs));
     fprintf( outFile, "Each test is run %d times, but only\n", NTIMES);
     fprintf( outFile, "the *best* time for each is used.\n");
+	fflush ( outFile);
     }
 
 #ifdef _OPENMP
