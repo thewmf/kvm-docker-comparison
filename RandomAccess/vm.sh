@@ -15,7 +15,7 @@ qemu-img create -f qcow2 -b $LIBDIR/ubuntu-13.10-server-cloudimg-amd64-disk1.img
 
 # start the VM & bind port 2222 on the host to port 22 in the VM
 # TODO fix NUMA
-kvm -net nic -net user -hda $IMG -hdb $LIBDIR/seed.img -m 100G -smp 32 \
+numactl --physcpubind=0-7,16-23 --localalloc kvm -net nic -net user -hda $IMG -hdb $LIBDIR/seed.img -m 100G -smp 16 \
     -nographic -redir :2222::22 >$IMG.log &
 
 # remove the overlay (qemu will keep it open as needed)
@@ -30,7 +30,7 @@ rsync -a -e "ssh $SSHOPTS" bin/ spyre@localhost:~
 
 # run gups and copy out results
 ssh $SSHOPTS spyre@localhost "sudo apt-get -qq install -y libgomp1 && \
-                              ./gups.exe && cat RESULTS" > results/vm.log
+                              ./gups.exe" > results/vm.log
 
 # shut down the VM
 ssh $SSHOPTS spyre@localhost sudo shutdown -h now
