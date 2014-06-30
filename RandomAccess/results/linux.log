@@ -5,3 +5,20 @@ CPU time used  = 0.931649 seconds
 Real time used = 0.931649 seconds
 0.010733656 Billion(10^9) Updates    per second [GUP/s]
 Found 0 errors in 8589934592 locations (passed).
+Generated on 2014-06-30:17:25:55 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 114.685405 seconds
+Real time used = 114.685405 seconds
+0.008719505 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+--------------------------------------------------------------------------------
+Running gups, started at Mon Jun 30 12:33:50 CDT 2014
+Generated on 2014-06-30:17:33:50 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.295462 seconds
+Real time used = 27.295461 seconds
+0.036636128 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+

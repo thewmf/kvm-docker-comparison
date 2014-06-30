@@ -28,9 +28,21 @@ make
 # copy code in (we could use Ansible for this kind of thing, but...)
 rsync -a -e "ssh $SSHOPTS" bin/ spyre@localhost:~
 
+# annotate the log
+mkdir -p results
+log="results/vm.log"
+now=`date`
+echo "Running gups, started at $now"
+echo "--------------------------------------------------------------------------------" >> $log
+echo "Running gups, started at $now" >> $log
+
 # run gups and copy out results
 ssh $SSHOPTS spyre@localhost "sudo apt-get -qq install -y libgomp1 && \
-                              ./gups.exe" > results/vm.log
+                              ./gups.exe" >> $log
+
+# annotate the log
+echo "" >> $log
+echo -n "Experiment completed at "; date
 
 # shut down the VM
 ssh $SSHOPTS spyre@localhost sudo shutdown -h now

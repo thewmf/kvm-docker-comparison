@@ -7,10 +7,13 @@ make
 docker rm gups
 docker build -t gups .
 
-echo Running gups
-now=`date "+%s"`
-mv results/docker.log results/docker.log.placedHere.$now
-docker run gups > results/docker.log
+mkdir -p results
+log="results/docker.log"
+now=`date`
+echo "Running gups, started at $now"
+echo "--------------------------------------------------------------------------------" >> $log
+echo "Running gups, started at $now" >> $log
+docker run gups >> $log
 docker rm gups
-
-echo Experiment completed
+echo "" >> $log
+echo -n "Experiment completed at "; date

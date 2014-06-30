@@ -1,6 +1,7 @@
 *.swp
+tmp*log
 *~
 *.o
 *.a
 RESULTS
-gups.exe
+bin/gups.exe

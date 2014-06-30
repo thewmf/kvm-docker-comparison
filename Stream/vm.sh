@@ -29,12 +29,12 @@ make
 rsync -a -e "ssh $SSHOPTS" bin/ spyre@localhost:~
 
 # Preserve old results
-now=`date "+%s"`
-mv results/vm.log results/vm.log.placedHere.$now
+# now=`date "+%s"`
+# mv results/vm.log results/vm.log.placedHere.$now
 
 # run stream and copy out results
 ssh $SSHOPTS spyre@localhost "sudo apt-get -qq install -y libgomp1 && \
-                              ./stream.exe " > results/vm.log
+                              ./stream.exe " >> results/vm.log
 
 # shut down the VM
 ssh $SSHOPTS spyre@localhost sudo shutdown -h now
