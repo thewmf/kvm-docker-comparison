@@ -2,6 +2,7 @@ CFLAGS = -m64 -g -Wall -O3 -fopenmp
 LDFLAGS = -L. -lutils
 
 all:	libutils.a stream.o
+	mkdir -p bin
 	gcc $(CFLAGS) -o bin/stream.exe stream.o $(LDFLAGS)
 
 utils.o:	utils.c utils.h
