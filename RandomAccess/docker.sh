@@ -2,9 +2,30 @@
 
 # just run this on arldcn24
 
-# build the container 
+# Set up the dockerfile
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 numberOfSockets (specify as 1 or 2)" 
+    exit 1
+fi
+
+if [ "$1" -eq 1 ]; then
+    rm Dockerfile
+    ln -s Dockerfile.oneSocket Dockerfile
+elif [ "$1" -eq 2 ]; then
+    rm Dockerfile
+    ln -s Dockerfile.twoSocket Dockerfile
+else
+    echo "Usage: $0 numberOfSockets (specify as 1 or 2)" 
+    exit 1
+fi
+
+
+exit
+# build the executable
 make
-docker rm gups
+
+# build the container 
+docker rm gups:latest
 docker build -t gups .
 
 mkdir -p results
