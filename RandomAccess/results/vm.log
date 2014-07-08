@@ -147,3 +147,48 @@ Real time used = 32.343012 seconds
 0.030918580 Billion(10^9) Updates    per second [GUP/s]
 Found 1 errors in 8589934592 locations (passed).
 
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  1 13:02:08 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-01:18:02:14 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 53.892159 seconds
+Real time used = 53.892165 seconds
+0.018555573 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  1 17:01:12 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-01:22:01:17 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 34.317985 seconds
+Real time used = 34.317989 seconds
+0.029139236 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  1 17:33:43 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-01:22:33:50 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 55.991524 seconds
+Real time used = 55.991529 seconds
+0.017859844 Billion(10^9) Updates    per second [GUP/s]
+Found 1 errors in 8589934592 locations (passed).
+
