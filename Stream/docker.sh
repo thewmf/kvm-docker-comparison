@@ -2,19 +2,38 @@
 
 # just run this on arldcn24
 
-# build the container 
+# Set up the dockerfile
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 numberOfSockets (specify as 1 or 2)" 
+    exit 1
+fi
+
+if [ "$1" -eq 1 ]; then
+    rm -f Dockerfile
+    ln -s Dockerfile.oneSocket Dockerfile
+elif [ "$1" -eq 2 ]; then
+    rm -f Dockerfile
+    ln -s Dockerfile.twoSocket Dockerfile
+else
+    echo "Usage: $0 numberOfSockets (specify as 1 or 2)" 
+    exit 1
+fi
+
+
+# build the executable
 make
+
+# build the container 
+docker rm stream:latest
 docker build -t stream .
 
-echo Running stream
-# now=`date "+%s"`
-# mv results/docker.log results/docker.log.placedHere.$now
-docker run stream >> results/docker.log
-# can't get this stuff to work and can't find docs anywhere
-#ID=$(docker run stream)
-#docker cp $ID:/RESULTS results/
-#mv results/RESULTS results/docker.log
-#docker rm $ID
-
-wait
-echo Experiment completed
+mkdir -p results
+log="results/docker.log"
+now=`date`
+echo "Running stream, started at $now"
+echo "--------------------------------------------------------------------------------" >> $log
+echo "Running stream, started at $now" >> $log
+docker run stream >> $log
+docker rm stream:latest
+echo "" >> $log
+echo -n "Experiment completed at "; date
