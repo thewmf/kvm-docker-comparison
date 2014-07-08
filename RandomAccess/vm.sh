@@ -10,9 +10,11 @@ fi
 
 if [ "$1" -eq 1 ]; then
     numaopts=" --physcpubind=0-7,16-23 --localalloc "
+	numsmp=16
     echo "Running on one socket with numactl $numaopts"
 elif [ "$1" -eq 2 ]; then
     numaopts=" --physcpubind=0-31 --interleave=0,1 "
+	numsmp=32
     echo "Running on two sockets with numactl $numaopts"
 else
     echo "Usage: $0 numberOfSockets (specify as 1 or 2)" 
@@ -31,7 +33,7 @@ IMG=`mktemp tmpXXX.img`
 qemu-img create -f qcow2 -b $LIBDIR/ubuntu-13.10-server-cloudimg-amd64-disk1.img $IMG
 
 # start the VM & bind port 2222 on the host to port 22 in the VM
-numactl $numaopts kvm -net nic -net user -hda $IMG -hdb $LIBDIR/seed.img -m 100G -smp 16 \
+numactl $numaopts kvm -net nic -net user -hda $IMG -hdb $LIBDIR/seed.img -m 100G -smp $numsmp \
     -nographic -redir :2222::22 >$IMG.log &
 
 # remove the overlay (qemu will keep it open as needed)
