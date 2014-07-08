@@ -1,0 +1,800 @@
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:32:58 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:33:04 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 559705 microseconds.
+   (= 559705 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          44.9234       0.6046       0.5877       0.6653
+Scale:         45.0205       0.6046       0.5865       0.6670
+Add:           50.7997       0.8010       0.7796       0.8945
+Triad:         50.8414       0.8006       0.7790       0.8918
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:34:44 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:34:51 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 552111 microseconds.
+   (= 552111 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          44.8261       0.6162       0.5890       0.7089
+Scale:         44.9483       0.6089       0.5874       0.6837
+Add:           50.6162       0.8089       0.7824       0.8900
+Triad:         50.7344       0.8043       0.7806       0.8894
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:36:28 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:36:34 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 587415 microseconds.
+   (= 587415 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          40.0215       0.6638       0.6597       0.6836
+Scale:         40.1049       0.6603       0.6583       0.6697
+Add:           44.7764       0.8865       0.8845       0.8953
+Triad:         44.7553       0.8865       0.8849       0.8912
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:38:13 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:38:20 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 581516 microseconds.
+   (= 581516 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          42.3540       0.6769       0.6234       0.7578
+Scale:         41.1615       0.6745       0.6414       0.7305
+Add:           45.8306       0.8999       0.8641       0.9778
+Triad:         47.5593       0.8920       0.8327       0.9471
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:40:03 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:40:08 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 536439 microseconds.
+   (= 536439 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          40.1097       0.6738       0.6583       0.7096
+Scale:         40.1892       0.6690       0.6570       0.6892
+Add:           44.8648       0.8929       0.8827       0.9222
+Triad:         44.8442       0.8963       0.8831       0.9401
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:41:47 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:41:53 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 587230 microseconds.
+   (= 587230 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          43.7544       0.6524       0.6034       0.7112
+Scale:         44.8225       0.6364       0.5890       0.6906
+Add:           50.6775       0.8460       0.7815       0.9250
+Triad:         49.4347       0.8479       0.8011       0.9250
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:43:32 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:43:38 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 611318 microseconds.
+   (= 611318 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          43.7286       0.6441       0.6038       0.7886
+Scale:         43.9535       0.6341       0.6007       0.7319
+Add:           50.8212       0.8253       0.7793       0.9486
+Triad:         51.6860       0.8389       0.7662       0.9197
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:45:17 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:45:24 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 530376 microseconds.
+   (= 530376 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          45.5963       0.6245       0.5791       0.6843
+Scale:         45.6572       0.6168       0.5783       0.6587
+Add:           51.6020       0.8164       0.7675       0.8314
+Triad:         51.8199       0.8132       0.7643       0.8295
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:47:01 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:47:07 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 557157 microseconds.
+   (= 557157 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          44.5193       0.6095       0.5931       0.7064
+Scale:         44.5715       0.6040       0.5924       0.6644
+Add:           50.2728       0.7982       0.7878       0.8574
+Triad:         50.3300       0.7982       0.7869       0.8609
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 04:48:45 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:09:48:50 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 566122 microseconds.
+   (= 566122 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          40.0107       0.6738       0.6599       0.7428
+Scale:         40.0930       0.6730       0.6585       0.7421
+Add:           44.8030       0.8974       0.8840       0.9329
+Triad:         44.7759       0.8974       0.8845       0.9356
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:11:20 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:11:26 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 773483 microseconds.
+   (= 773483 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.6577       1.1664       1.1653       1.1673
+Scale:         22.7333       1.1626       1.1614       1.1633
+Add:           25.5961       1.5488       1.5473       1.5498
+Triad:         25.6062       1.5480       1.5467       1.5487
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:13:22 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:13:27 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 776728 microseconds.
+   (= 776728 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.6380       1.1693       1.1663       1.1711
+Scale:         22.6977       1.1654       1.1632       1.1673
+Add:           25.5664       1.5528       1.5491       1.5551
+Triad:         25.5619       1.5522       1.5493       1.5545
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:15:26 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:15:32 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 775815 microseconds.
+   (= 775815 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.6328       1.1695       1.1666       1.1714
+Scale:         22.6943       1.1659       1.1634       1.1674
+Add:           25.5648       1.5531       1.5492       1.5553
+Triad:         25.5687       1.5520       1.5489       1.5544
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:17:30 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:17:36 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 774010 microseconds.
+   (= 774010 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.5630       1.1703       1.1702       1.1705
+Scale:         22.6371       1.1665       1.1663       1.1667
+Add:           25.4937       1.5538       1.5535       1.5541
+Triad:         25.5081       1.5530       1.5526       1.5533
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:19:33 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:19:38 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 776698 microseconds.
+   (= 776698 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.6491       1.1687       1.1657       1.1705
+Scale:         22.6872       1.1650       1.1638       1.1670
+Add:           25.5807       1.5520       1.5482       1.5540
+Triad:         25.5691       1.5513       1.5489       1.5533
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:21:35 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:21:40 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 776572 microseconds.
+   (= 776572 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.6367       1.1693       1.1664       1.1714
+Scale:         22.7111       1.1657       1.1625       1.1672
+Add:           25.5508       1.5530       1.5500       1.5550
+Triad:         25.5804       1.5520       1.5482       1.5542
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:23:39 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:23:46 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 772667 microseconds.
+   (= 772667 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.6099       1.1702       1.1677       1.1719
+Scale:         22.6957       1.1663       1.1633       1.1680
+Add:           25.5409       1.5537       1.5506       1.5562
+Triad:         25.5633       1.5529       1.5492       1.5553
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:25:43 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:25:48 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 776286 microseconds.
+   (= 776286 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.6525       1.1685       1.1655       1.1703
+Scale:         22.7058       1.1645       1.1628       1.1665
+Add:           25.5819       1.5518       1.5481       1.5539
+Triad:         25.5720       1.5509       1.5487       1.5532
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:27:46 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:27:52 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 774005 microseconds.
+   (= 774005 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.6438       1.1661       1.1660       1.1663
+Scale:         22.7211       1.1622       1.1620       1.1624
+Add:           25.5804       1.5485       1.5482       1.5488
+Triad:         25.5960       1.5476       1.5473       1.5479
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream, started at Tue Jul  8 05:29:49 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:10:29:56 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 775263 microseconds.
+   (= 775263 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          22.6121       1.1679       1.1676       1.1682
+Scale:         22.6879       1.1639       1.1637       1.1642
+Add:           25.5430       1.5509       1.5505       1.5514
+Triad:         25.5564       1.5500       1.5497       1.5507
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+

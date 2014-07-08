@@ -1,159 +1,200 @@
-Running gups, started at Mon Jun 30 22:29:24 CDT 2014
-Generated on 2014-07-01:03:29:24 GMT
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 06:10:25 CDT 2014
+Generated on 2014-07-08:11:10:25 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 27.482716 seconds
-Real time used = 27.482717 seconds
-0.036386504 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 88.286502 seconds
+Real time used = 88.286501 seconds
+0.011326760 Billion(10^9) Updates    per second [GUP/s]
 Found 0 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:31:53 CDT 2014
-Generated on 2014-07-01:03:31:53 GMT
+Running gups, started at Tue Jul  8 06:14:21 CDT 2014
+Generated on 2014-07-08:11:14:21 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 27.717193 seconds
-Real time used = 27.717193 seconds
-0.036078690 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:34:21 CDT 2014
-Generated on 2014-07-01:03:34:22 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 27.845078 seconds
-Real time used = 27.845078 seconds
-0.035912990 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:36:51 CDT 2014
-Generated on 2014-07-01:03:36:51 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 27.307152 seconds
-Real time used = 27.307152 seconds
-0.036620443 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:39:19 CDT 2014
-Generated on 2014-07-01:03:39:20 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 27.383821 seconds
-Real time used = 27.383822 seconds
-0.036517912 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:41:48 CDT 2014
-Generated on 2014-07-01:03:41:49 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 26.792957 seconds
-Real time used = 26.792957 seconds
-0.037323241 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:44:17 CDT 2014
-Generated on 2014-07-01:03:44:17 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 26.931894 seconds
-Real time used = 26.931895 seconds
-0.037130696 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:46:45 CDT 2014
-Generated on 2014-07-01:03:46:45 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 28.008780 seconds
-Real time used = 28.008781 seconds
-0.035703089 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:49:14 CDT 2014
-Generated on 2014-07-01:03:49:14 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 27.925178 seconds
-Real time used = 27.925179 seconds
-0.035809976 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:51:44 CDT 2014
-Generated on 2014-07-01:03:51:44 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 27.715674 seconds
-Real time used = 27.715674 seconds
-0.036080667 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Tue Jul  1 10:20:03 CDT 2014
-Generated on 2014-07-01:15:20:04 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 88.200408 seconds
-Real time used = 88.200409 seconds
-0.011337816 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 79.622947 seconds
+Real time used = 79.622948 seconds
+0.012559193 Billion(10^9) Updates    per second [GUP/s]
 Found 1 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Tue Jul  1 10:27:05 CDT 2014
-Generated on 2014-07-01:15:27:05 GMT
+Running gups, started at Tue Jul  8 06:18:08 CDT 2014
+Generated on 2014-07-08:11:18:08 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 81.870417 seconds
-Real time used = 81.870417 seconds
-0.012214424 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 80.449937 seconds
+Real time used = 80.449937 seconds
+0.012430091 Billion(10^9) Updates    per second [GUP/s]
 Found 1 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Tue Jul  1 12:18:21 CDT 2014
-Generated on 2014-07-01:17:18:21 GMT
+Running gups, started at Tue Jul  8 06:21:56 CDT 2014
+Generated on 2014-07-08:11:21:56 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 89.902186 seconds
-Real time used = 89.902187 seconds
-0.011123200 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 88.751174 seconds
+Real time used = 88.751175 seconds
+0.011267456 Billion(10^9) Updates    per second [GUP/s]
+Found 2 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 06:25:53 CDT 2014
+Generated on 2014-07-08:11:25:53 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 86.201840 seconds
+Real time used = 86.201841 seconds
+0.011600680 Billion(10^9) Updates    per second [GUP/s]
 Found 1 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Tue Jul  1 12:37:05 CDT 2014
-Generated on 2014-07-01:17:37:06 GMT
+Running gups, started at Tue Jul  8 06:29:47 CDT 2014
+Generated on 2014-07-08:11:29:47 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 27.285311 seconds
-Real time used = 27.285310 seconds
-0.036649758 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 85.524016 seconds
+Real time used = 85.524016 seconds
+0.011692622 Billion(10^9) Updates    per second [GUP/s]
+Found 2 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 06:33:40 CDT 2014
+Generated on 2014-07-08:11:33:41 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 83.610631 seconds
+Real time used = 83.610631 seconds
+0.011960202 Billion(10^9) Updates    per second [GUP/s]
+Found 1 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 06:37:31 CDT 2014
+Generated on 2014-07-08:11:37:32 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 80.727851 seconds
+Real time used = 80.727850 seconds
+0.012387299 Billion(10^9) Updates    per second [GUP/s]
 Found 0 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Tue Jul  1 12:39:58 CDT 2014
-Generated on 2014-07-01:17:39:59 GMT
+Running gups, started at Tue Jul  8 06:41:20 CDT 2014
+Generated on 2014-07-08:11:41:20 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 88.712093 seconds
-Real time used = 88.712094 seconds
-0.011272420 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 87.756218 seconds
+Real time used = 87.756219 seconds
+0.011395204 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 06:45:15 CDT 2014
+Generated on 2014-07-08:11:45:15 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 91.830295 seconds
+Real time used = 91.830296 seconds
+0.010889652 Billion(10^9) Updates    per second [GUP/s]
 Found 1 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Tue Jul  1 16:55:42 CDT 2014
-Generated on 2014-07-01:21:55:42 GMT
+Running gups, started at Tue Jul  8 08:03:46 CDT 2014
+Generated on 2014-07-08:13:03:47 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 27.667676 seconds
-Real time used = 27.667677 seconds
-0.036143258 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 27.522527 seconds
+Real time used = 27.522527 seconds
+0.036333873 Billion(10^9) Updates    per second [GUP/s]
 Found 1 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:06:16 CDT 2014
+Generated on 2014-07-08:13:06:16 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.100318 seconds
+Real time used = 27.100318 seconds
+0.036899936 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:08:45 CDT 2014
+Generated on 2014-07-08:13:08:45 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.851254 seconds
+Real time used = 27.851254 seconds
+0.035905026 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:11:14 CDT 2014
+Generated on 2014-07-08:13:11:14 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.670747 seconds
+Real time used = 27.670747 seconds
+0.036139248 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:13:45 CDT 2014
+Generated on 2014-07-08:13:13:45 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.200346 seconds
+Real time used = 27.200346 seconds
+0.036764238 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:16:14 CDT 2014
+Generated on 2014-07-08:13:16:14 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.129818 seconds
+Real time used = 27.129819 seconds
+0.036859811 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:18:43 CDT 2014
+Generated on 2014-07-08:13:18:43 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.767108 seconds
+Real time used = 27.767108 seconds
+0.036013833 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:21:12 CDT 2014
+Generated on 2014-07-08:13:21:12 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.833693 seconds
+Real time used = 27.833692 seconds
+0.035927681 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:23:42 CDT 2014
+Generated on 2014-07-08:13:23:42 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.541201 seconds
+Real time used = 27.541200 seconds
+0.036309239 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:26:11 CDT 2014
+Generated on 2014-07-08:13:26:12 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 27.682717 seconds
+Real time used = 27.682717 seconds
+0.036123622 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
 

@@ -1,194 +1,300 @@
-Running gups, started at Mon Jun 30 22:54:44 CDT 2014
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 06:49:45 CDT 2014
 Selecting previously unselected package libgomp1:amd64.
 (Reading database ... 54322 files and directories currently installed.)
 Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
 Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
 Processing triggers for libc-bin ...
-Generated on 2014-07-01:03:54:50 GMT
+Generated on 2014-07-08:11:49:51 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 32.495202 seconds
-Real time used = 32.495207 seconds
-0.030773769 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
+CPU time used  = 89.603356 seconds
+Real time used = 89.603361 seconds
+0.011160296 Billion(10^9) Updates    per second [GUP/s]
+Found 3 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 22:58:32 CDT 2014
+Running gups, started at Tue Jul  8 06:54:49 CDT 2014
 Selecting previously unselected package libgomp1:amd64.
 (Reading database ... 54322 files and directories currently installed.)
 Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
 Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
 Processing triggers for libc-bin ...
-Generated on 2014-07-01:03:58:39 GMT
+Generated on 2014-07-08:11:54:55 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 32.529866 seconds
-Real time used = 32.529872 seconds
-0.030740976 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 23:02:18 CDT 2014
-Selecting previously unselected package libgomp1:amd64.
-(Reading database ... 54322 files and directories currently installed.)
-Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
-Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
-Processing triggers for libc-bin ...
-Generated on 2014-07-01:04:02:23 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 32.511303 seconds
-Real time used = 32.511309 seconds
-0.030758528 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 23:06:04 CDT 2014
-Selecting previously unselected package libgomp1:amd64.
-(Reading database ... 54322 files and directories currently installed.)
-Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
-Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
-Processing triggers for libc-bin ...
-Generated on 2014-07-01:04:06:09 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 33.010281 seconds
-Real time used = 33.010286 seconds
-0.030293588 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 23:10:34 CDT 2014
-Selecting previously unselected package libgomp1:amd64.
-(Reading database ... 54322 files and directories currently installed.)
-Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
-Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
-Processing triggers for libc-bin ...
-Generated on 2014-07-01:04:10:40 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 32.030232 seconds
-Real time used = 32.030236 seconds
-0.031220501 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 23:15:02 CDT 2014
-Selecting previously unselected package libgomp1:amd64.
-(Reading database ... 54322 files and directories currently installed.)
-Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
-Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
-Processing triggers for libc-bin ...
-Generated on 2014-07-01:04:15:06 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 32.325785 seconds
-Real time used = 32.325791 seconds
-0.030935051 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 23:18:46 CDT 2014
-Selecting previously unselected package libgomp1:amd64.
-(Reading database ... 54322 files and directories currently installed.)
-Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
-Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
-Processing triggers for libc-bin ...
-Generated on 2014-07-01:04:18:51 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 32.452404 seconds
-Real time used = 32.452409 seconds
-0.030814354 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 23:22:32 CDT 2014
-Selecting previously unselected package libgomp1:amd64.
-(Reading database ... 54322 files and directories currently installed.)
-Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
-Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
-Processing triggers for libc-bin ...
-Generated on 2014-07-01:04:22:36 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 32.393957 seconds
-Real time used = 32.393963 seconds
-0.030869949 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 23:26:19 CDT 2014
-Selecting previously unselected package libgomp1:amd64.
-(Reading database ... 54322 files and directories currently installed.)
-Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
-Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
-Processing triggers for libc-bin ...
-Generated on 2014-07-01:04:26:25 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 32.883687 seconds
-Real time used = 32.883690 seconds
-0.030410213 Billion(10^9) Updates    per second [GUP/s]
-Found 0 errors in 8589934592 locations (passed).
-
---------------------------------------------------------------------------------
-Running gups, started at Mon Jun 30 23:30:08 CDT 2014
-Selecting previously unselected package libgomp1:amd64.
-(Reading database ... 54322 files and directories currently installed.)
-Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
-Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
-Processing triggers for libc-bin ...
-Generated on 2014-07-01:04:30:14 GMT
-Main table size   = 2^33 = 8589934592 words
-Number of updates = 1000000000
-CPU time used  = 32.343007 seconds
-Real time used = 32.343012 seconds
-0.030918580 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 84.489325 seconds
+Real time used = 84.489330 seconds
+0.011835814 Billion(10^9) Updates    per second [GUP/s]
 Found 1 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Tue Jul  1 13:02:08 CDT 2014
+Running gups, started at Tue Jul  8 06:59:47 CDT 2014
 Selecting previously unselected package libgomp1:amd64.
 (Reading database ... 54322 files and directories currently installed.)
 Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
 Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
 Processing triggers for libc-bin ...
-Generated on 2014-07-01:18:02:14 GMT
+Generated on 2014-07-08:11:59:53 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 53.892159 seconds
-Real time used = 53.892165 seconds
-0.018555573 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 79.898167 seconds
+Real time used = 79.898172 seconds
+0.012515931 Billion(10^9) Updates    per second [GUP/s]
 Found 0 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Tue Jul  1 17:01:12 CDT 2014
+Running gups, started at Tue Jul  8 07:04:43 CDT 2014
 Selecting previously unselected package libgomp1:amd64.
 (Reading database ... 54322 files and directories currently installed.)
 Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
 Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
 Processing triggers for libc-bin ...
-Generated on 2014-07-01:22:01:17 GMT
+Generated on 2014-07-08:12:04:48 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 34.317985 seconds
-Real time used = 34.317989 seconds
-0.029139236 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 83.079483 seconds
+Real time used = 83.079488 seconds
+0.012036665 Billion(10^9) Updates    per second [GUP/s]
 Found 0 errors in 8589934592 locations (passed).
 
 --------------------------------------------------------------------------------
-Running gups, started at Tue Jul  1 17:33:43 CDT 2014
+Running gups, started at Tue Jul  8 07:09:39 CDT 2014
 Selecting previously unselected package libgomp1:amd64.
 (Reading database ... 54322 files and directories currently installed.)
 Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
 Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
 Processing triggers for libc-bin ...
-Generated on 2014-07-01:22:33:50 GMT
+Generated on 2014-07-08:12:09:45 GMT
 Main table size   = 2^33 = 8589934592 words
 Number of updates = 1000000000
-CPU time used  = 55.991524 seconds
-Real time used = 55.991529 seconds
-0.017859844 Billion(10^9) Updates    per second [GUP/s]
+CPU time used  = 86.618111 seconds
+Real time used = 86.618116 seconds
+0.011544929 Billion(10^9) Updates    per second [GUP/s]
 Found 1 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 07:14:39 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:12:14:46 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 81.803046 seconds
+Real time used = 81.803050 seconds
+0.012224483 Billion(10^9) Updates    per second [GUP/s]
+Found 1 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 07:19:38 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:12:19:43 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 84.069173 seconds
+Real time used = 84.069178 seconds
+0.011894966 Billion(10^9) Updates    per second [GUP/s]
+Found 1 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 07:24:37 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:12:24:44 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 86.925134 seconds
+Real time used = 86.925139 seconds
+0.011504152 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 07:29:38 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:12:29:44 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 84.267957 seconds
+Real time used = 84.267962 seconds
+0.011866906 Billion(10^9) Updates    per second [GUP/s]
+Found 1 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 07:34:36 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:12:34:43 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 80.824925 seconds
+Real time used = 80.824930 seconds
+0.012372420 Billion(10^9) Updates    per second [GUP/s]
+Found 1 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:29:13 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:13:29:19 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 32.480752 seconds
+Real time used = 32.480756 seconds
+0.030787461 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:32:59 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:13:33:05 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 31.430038 seconds
+Real time used = 31.430045 seconds
+0.031816690 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:39:59 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:13:40:05 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 32.570325 seconds
+Real time used = 32.570331 seconds
+0.030702789 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 08:45:48 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:13:45:54 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 35.790167 seconds
+Real time used = 35.790172 seconds
+0.027940631 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 09:02:37 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:14:02:42 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 32.388876 seconds
+Real time used = 32.388883 seconds
+0.030874791 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 09:08:47 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:14:08:51 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 32.497675 seconds
+Real time used = 32.497680 seconds
+0.030771427 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 09:12:33 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:14:12:38 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 32.727809 seconds
+Real time used = 32.727815 seconds
+0.030555049 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 09:16:52 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:14:16:57 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 31.670249 seconds
+Real time used = 31.670253 seconds
+0.031575371 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 09:21:59 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:14:22:04 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 32.296073 seconds
+Real time used = 32.296079 seconds
+0.030963511 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
+
+--------------------------------------------------------------------------------
+Running gups, started at Tue Jul  8 09:25:44 CDT 2014
+Selecting previously unselected package libgomp1:amd64.
+(Reading database ... 54322 files and directories currently installed.)
+Unpacking libgomp1:amd64 (from .../libgomp1_4.8.1-10ubuntu9_amd64.deb) ...
+Setting up libgomp1:amd64 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+Generated on 2014-07-08:14:25:48 GMT
+Main table size   = 2^33 = 8589934592 words
+Number of updates = 1000000000
+CPU time used  = 31.995966 seconds
+Real time used = 31.995971 seconds
+0.031253935 Billion(10^9) Updates    per second [GUP/s]
+Found 0 errors in 8589934592 locations (passed).
 
