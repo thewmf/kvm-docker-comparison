@@ -33,7 +33,7 @@ now=`date`
 echo "Running gups, started at $now"
 echo "--------------------------------------------------------------------------------" >> $log
 echo "Running gups, started at $now" >> $log
-docker run gups >> $log
+docker run --rm gups >> $log
 docker rm gups
 echo "" >> $log
 echo -n "Experiment completed at "; date
