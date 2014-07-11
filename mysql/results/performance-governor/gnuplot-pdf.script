@@ -1,0 +1,13 @@
+set terminal pdf font "Times-Roman,9" linewidth 4 rounded fontscale 1.0
+#set terminal pdfcairo font "Gill Sans,9" linewidth 4 rounded fontscale 1.0
+set output "MYSQL.pdf" 
+set yrange [2000:14000]
+#set xrange [0:200]
+set key right bottom
+set y2range [0:36]
+set datafile separator ","
+set y2tics 6 nomirror 
+set ylabel "Transactions/sec"
+set y2label "Latency (ms)"
+set xlabel "Number of sysbench threads"
+plot "results-reqs.csv" using 1:2 with lines lt 1 title "Native"          ,"results-reqs.csv" using 1:2:3 with errorbars lt 1 notitle, "results-reqs.csv" using 1:4 with lines lt 2 title "Docker"          ,"results-reqs.csv" using 1:4:5 with errorbars lt 2 notitle, "results-reqs.csv" using 1:6 with lines lt 3 title "Docker NAT"      ,"results-reqs.csv" using 1:6:7 with errorbars lt 3 notitle, "results-reqs.csv" using 1:8 with lines lt 4 title "Docker NAT AUFS" ,"results-reqs.csv" using 1:8:9 with errorbars lt 4 notitle, "results-latency.csv" using 1:2 with lines lt 1 notitle axes x1y2,"results-latency.csv" using 1:2:3 with errorbars lt 1 notitle axes x1y2, "results-latency.csv" using 1:4 with lines lt 2 notitle axes x1y2,"results-latency.csv" using 1:4:5 with errorbars lt 2 notitle axes x1y2, "results-latency.csv" using 1:6 with lines lt 3 notitle axes x1y2,"results-latency.csv" using 1:6:7 with errorbars lt 3 notitle axes x1y2, "results-latency.csv" using 1:8 with lines lt 4 notitle axes x1y2,"results-latency.csv" using 1:8:9 with errorbars lt 4 notitle axes x1y2
