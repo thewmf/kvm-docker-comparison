@@ -1,0 +1,32 @@
+[mysqld]
+#
+# * Basic Settings
+#
+datadir		= /home/mysql
+bind-address	= 0.0.0.0
+
+max_allowed_packet	= 64M
+thread_cache_size       = 256
+max_connections        = 20020
+query_cache_limit	= 0
+query_cache_size        = 0
+max_connect_errors = 99999999
+wait_timeout = 28800
+interactive_timeout = 28800
+back_log=60000
+
+innodb_buffer_pool_size = 3G
+innodb_additional_mem_pool_size = 16M
+innodb_log_buffer_size = 8M
+innodb_flush_log_at_trx_commit = 0
+innodb_flush_method = O_DIRECT
+innodb_open_files = 2000
+innodb_file_per_table
+#innodb_log_file_size=2G
+innodb_log_files_in_group=2
+innodb_purge_threads=1
+innodb_max_purge_lag=0
+innodb_support_xa=0
+innodb_locks_unsafe_for_binlog = 1
+innodb_buffer_pool_instances=8
+sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
