@@ -21,7 +21,7 @@ sudo umount /ferrari
 # TODO use fancy virtio
 kvm -net nic -net user -hda $IMG -hdb $LIBDIR/seed.img \
     -drive file=/dev/mapper/FlashSystem_840,if=virtio,cache=none,aio=native \
-    -m 96G -smp 16 -nographic -redir :2222::22 >$IMG.log &
+    -m 96G -smp 32 -nographic -redir :2222::22 >$IMG.log &
 
 # remove the overlay (qemu will keep it open as needed)
 sleep 2
