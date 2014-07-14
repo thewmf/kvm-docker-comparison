@@ -7,7 +7,7 @@
 #include "utils.h"
 #define OUTFNAME	"RESULTS"
 
-#if 1
+#if 0
 // Since we will be running inside a VM, lets get a good solid measure of time by sending a ping whenever we measure time 
 #include "talker.c"
 #else
@@ -191,3 +191,23 @@ HPCC_LocalVectorSize (void *unused, int num, int size, int dummy) {
 	return veclen;
 }
 
+
+#include <stdlib.h>
+#include <sys/mman.h>
+
+void * mmap_malloc (size_t n) {
+#if 1
+    void *p;
+    int ret = posix_memalign (&p, 2*1024*1024, n);
+    if (ret == 0) {
+	madvise (p, n, MADV_HUGEPAGE);
+	return p;
+    }
+    else {
+    	perror ("Cannot allocate memory");
+	exit (-1);
+    }
+#else
+    return (void *) malloc (n);
+#endif
+}
