@@ -698,3 +698,569 @@ Results Comparison:
 Solution Validates
 -------------------------------------------------------------
 
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 01:08:34 CDT 2014
+Generated on 2014-07-10:06:08:34 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 424103 microseconds.
+   (= 424103 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3483       0.6386       0.6385       0.6388
+Scale:         41.4137       0.6382       0.6375       0.6399
+Add:           46.0980       0.8604       0.8591       0.8630
+Triad:         46.1266       0.8593       0.8586       0.8617
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 01:10:18 CDT 2014
+Generated on 2014-07-10:06:10:18 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 423735 microseconds.
+   (= 423735 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3498       0.6391       0.6385       0.6414
+Scale:         41.4227       0.6383       0.6374       0.6407
+Add:           46.0753       0.8608       0.8595       0.8662
+Triad:         46.1138       0.8599       0.8588       0.8625
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1 --touch >, started at Thu Jul 10 01:26:21 CDT 2014
+
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 01:57:11 CDT 2014
+Generated on 2014-07-10:06:57:11 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 424162 microseconds.
+   (= 424162 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3646       0.6387       0.6383       0.6393
+Scale:         41.4159       0.6387       0.6375       0.6411
+Add:           46.0843       0.8604       0.8594       0.8624
+Triad:         46.1096       0.8602       0.8589       0.8659
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 01:58:09 CDT 2014
+Generated on 2014-07-10:06:58:09 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 423042 microseconds.
+   (= 423042 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3484       0.6387       0.6385       0.6388
+Scale:         41.4188       0.6389       0.6375       0.6429
+Add:           46.0985       0.8600       0.8591       0.8617
+Triad:         46.1194       0.8612       0.8587       0.8717
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 02:00:24 CDT 2014
+Generated on 2014-07-10:07:00:24 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 425466 microseconds.
+   (= 425466 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3602       0.6393       0.6384       0.6443
+Scale:         41.4274       0.6380       0.6373       0.6392
+Add:           46.0777       0.8607       0.8595       0.8625
+Triad:         46.1168       0.8598       0.8588       0.8641
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 03:24:27 CDT 2014
+Generated on 2014-07-10:08:24:27 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 421882 microseconds.
+   (= 421882 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3334       0.6391       0.6388       0.6393
+Scale:         41.3941       0.6382       0.6378       0.6390
+Add:           46.0383       0.8606       0.8602       0.8619
+Triad:         46.0863       0.8600       0.8593       0.8620
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 03:34:33 CDT 2014
+Generated on 2014-07-10:08:34:33 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 421613 microseconds.
+   (= 421613 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3197       0.6395       0.6390       0.6413
+Scale:         41.3857       0.6385       0.6380       0.6395
+Add:           46.0536       0.8604       0.8600       0.8613
+Triad:         46.0766       0.8603       0.8595       0.8638
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 03:53:54 CDT 2014
+Generated on 2014-07-10:08:53:54 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 452980 microseconds.
+   (= 452980 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          38.8498       0.6799       0.6796       0.6806
+Scale:         39.1325       0.6776       0.6747       0.6785
+Add:           43.5344       0.9125       0.9097       0.9133
+Triad:         43.3516       0.9142       0.9136       0.9168
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 03:57:41 CDT 2014
+Generated on 2014-07-10:08:57:41 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 420558 microseconds.
+   (= 420558 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3239       0.6392       0.6389       0.6394
+Scale:         41.3886       0.6394       0.6379       0.6438
+Add:           46.0509       0.8603       0.8600       0.8607
+Triad:         46.0735       0.8599       0.8596       0.8613
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 09:13:28 CDT 2014
+Generated on 2014-07-10:14:13:28 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 425089 microseconds.
+   (= 425089 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3546       0.6386       0.6384       0.6390
+Scale:         41.4216       0.6383       0.6374       0.6406
+Add:           46.1082       0.8597       0.8589       0.8601
+Triad:         46.1168       0.8595       0.8588       0.8609
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Thu Jul 10 09:15:24 CDT 2014
+Generated on 2014-07-10:14:15:24 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 424335 microseconds.
+   (= 424335 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3566       0.6387       0.6384       0.6390
+Scale:         41.4129       0.6383       0.6375       0.6406
+Add:           46.0844       0.8605       0.8594       0.8635
+Triad:         46.1200       0.8598       0.8587       0.8626
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Fri Jul 11 03:40:13 CDT 2014
+Generated on 2014-07-11:08:40:13 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 15 microseconds.
+Each test below will take on the order of 422199 microseconds.
+   (= 28146 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.4212       0.6377       0.6374       0.6379
+Scale:         41.4964       0.6375       0.6363       0.6410
+Add:           46.1493       0.8588       0.8582       0.8606
+Triad:         46.1766       0.8585       0.8577       0.8619
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Fri Jul 11 03:46:51 CDT 2014
+Generated on 2014-07-11:08:46:51 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 22 microseconds.
+Each test below will take on the order of 425815 microseconds.
+   (= 19355 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3990       0.6380       0.6378       0.6382
+Scale:         41.4550       0.6375       0.6369       0.6387
+Add:           46.1263       0.8588       0.8586       0.8593
+Triad:         46.1560       0.8588       0.8580       0.8606
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Fri Jul 11 03:51:29 CDT 2014
+Generated on 2014-07-11:08:51:29 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 7 microseconds.
+Each test below will take on the order of 429614 microseconds.
+   (= 61373 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.4047       0.6379       0.6377       0.6380
+Scale:         41.4829       0.6371       0.6365       0.6388
+Add:           46.1557       0.8587       0.8581       0.8591
+Triad:         46.1976       0.8588       0.8573       0.8621
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Fri Jul 11 07:09:48 CDT 2014
+prepareComm: All timer ping traffic will go to arldcn24.austin.ibm.com:4950
+Generated on 2014-07-11:12:09:48 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 15 microseconds.
+Each test below will take on the order of 423206 microseconds.
+   (= 28213 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3709       0.6389       0.6382       0.6429
+Scale:         41.4580       0.6382       0.6369       0.6414
+Add:           46.1280       0.8594       0.8586       0.8620
+Triad:         46.1638       0.8584       0.8579       0.8588
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Running stream with numaopts <  --physcpubind=0-31 --interleave=0,1  >, started at Fri Jul 11 07:11:34 CDT 2014
+prepareComm: All timer ping traffic will go to arldcn24.austin.ibm.com:4950
+Generated on 2014-07-11:12:11:34 GMT
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 1650163200, Offset = 0
+Total memory required = 36.8840 GiB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads requested = 32
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 15 microseconds.
+Each test below will take on the order of 425893 microseconds.
+   (= 28392 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function      Rate (GB/s)   Avg time     Min time     Max time
+Copy:          41.3790       0.6386       0.6381       0.6412
+Scale:         41.4485       0.6374       0.6370       0.6386
+Add:           46.1350       0.8592       0.8584       0.8608
+Triad:         46.1644       0.8584       0.8579       0.8589
+-------------------------------------------------------------
+Results Comparison: 
+        Expected  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+        Observed  : 1153300781250.000000 230660156250.000000 307546875000.000000 
+Solution Validates
+-------------------------------------------------------------
+
