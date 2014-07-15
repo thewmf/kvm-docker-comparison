@@ -1,0 +1,8 @@
+set datafile separator ","
+set terminal png size 1024,800
+set output "MYSQL-XY.png" 
+set datafile separator ","
+set key top left
+set ylabel "Latency (ms)"
+set xlabel "Throughput in Transactions/s"
+plot "results-total.csv" using 2:10 with lp lt 1 title "Native", "results-total.csv" using 4:12 with lp lt 2 title "Docker","results-total.csv" using 6:14 with lp lt 3 title "Docker NAT","results-total.csv" using 8:16 with lp lt 4 title "Docker NAT AUFS"

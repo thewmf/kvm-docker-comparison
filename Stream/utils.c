@@ -7,6 +7,15 @@
 #include "utils.h"
 #define OUTFNAME	"RESULTS"
 
+#if 0
+// Since we will be running inside a VM, lets get a good solid measure of time by sending a ping whenever we measure time 
+#include "talker.c"
+#else
+#define prepareComm	dummy
+#define sendPing	dummy
+static inline void dummy() { }
+#endif
+
 #define  GiBYTE   1073741824L
 
 
@@ -151,12 +160,14 @@ GetTime ()
 {
    struct timeval tp;
    (void) gettimeofday( &tp, NULL );
+   sendPing ();
    return (tp.tv_sec + ((double) tp.tv_usec)/1000000.0);
 }
 
 
 HPCC_Params *
 initialize () {
+	prepareComm();
 	get_mem_info();
 	maxprocmem = ((uint64_t) mem_total) * 1024 / 2;
 
@@ -180,3 +191,23 @@ HPCC_LocalVectorSize (void *unused, int num, int size, int dummy) {
 	return veclen;
 }
 
+
+#include <stdlib.h>
+#include <sys/mman.h>
+
+void * mmap_malloc (size_t n) {
+#if 1
+    void *p;
+    int ret = posix_memalign (&p, 2*1024*1024, n);
+    if (ret == 0) {
+	madvise (p, n, MADV_HUGEPAGE);
+	return p;
+    }
+    else {
+    	perror ("Cannot allocate memory");
+	exit (-1);
+    }
+#else
+    return (void *) malloc (n);
+#endif
+}

@@ -1,0 +1,9 @@
+set terminal pdf font "Times-Roman,9" linewidth 4 rounded fontscale 1.0
+#set terminal pdfcairo font "Gill Sans,9" linewidth 4 rounded fontscale 1.0
+set output "FIO-GNU.pdf" 
+#set yrange [2000:14000]
+set xrange [0:1000]
+set key right bottom
+set ylabel "CDF (%)"
+set xlabel "Latency (us)"
+plot "linux.txt" using 2:1 with linespoints lt 1 title "Native", "docker.txt" using 2:1 with linespoints lt 2 title "Docker", "vm.txt" using 2:1 with linespoints lt 3 title "KVM"

@@ -119,7 +119,7 @@ HPCC_starts_LCG(s64Int n)
 
 /* Number of updates to table (suggested: 4x number of table entries) */
 // #define NUPDATE (4 * TableSize)
-#define NUPDATE 10000000
+#define NUPDATE (100ULL*10000000)
 
 static void
 RandomAccessUpdate(u64Int TableSize, u64Int *Table) {
@@ -163,7 +163,8 @@ HPCC_RandomAccess(HPCC_Params *params, int doIO, double *GUPs, int *failure) {
   FILE *outFile = NULL;
 
   if (doIO) {
-    outFile = fopen( params->outFname, "w+" );
+    // outFile = fopen( params->outFname, "w+" );
+    outFile = stdout;
     if (! outFile) {
       outFile = stderr;
       fprintf( outFile, "Cannot open output file.\n" );
@@ -175,6 +176,8 @@ HPCC_RandomAccess(HPCC_Params *params, int doIO, double *GUPs, int *failure) {
 
   /* calculate local memory per node for the update table */
   totalMem = params->HPLMaxProcMem;
+  totalMem = 4294967296ULL * 2 * sizeof(u64Int);		// OVERRIDING TO BE CONSTANT
+
   totalMem /= sizeof(u64Int);
 
   /* calculate the size of update array (must be a power of 2) */
@@ -197,9 +200,9 @@ HPCC_RandomAccess(HPCC_Params *params, int doIO, double *GUPs, int *failure) {
   /* Print parameters for run */
   if (doIO) {
   fprintf( outFile, "Main table size   = 2^" FSTR64 " = " FSTR64 " words\n", logTableSize,TableSize);
-  fprintf( outFile, "Number of updates = " FSTR64 "\n", NUPDATE);
-  }
+  fprintf( outFile, "Number of updates = " FSTR64 "\n", (u64Int) NUPDATE);
   fflush (outFile);
+  }
 
   /* Initialize main table */
   for (i=0; i<TableSize; i++) Table[i] = i;

@@ -1,0 +1,13 @@
+set terminal pdf font "Times-Roman,9" linewidth 4 rounded fontscale 1.0
+#set terminal pdfcairo font "Gill Sans,9" linewidth 4 rounded fontscale 1.0
+set output "MYSQL-LATENCY.pdf" 
+set yrange [0:30]
+set ytics 5 
+set key top center
+set y2range [0:18]
+set datafile separator ","
+set y2tics 3 
+set ylabel "Latency (ms)"
+set y2label "% loss Native/Docker (%)"
+set xlabel "Number of sysbench threads"
+plot "results-latency.csv" using 1:2 with lines lt 1 title "Native"          ,"results-latency.csv" using 1:2:3 with errorbars lt 1 notitle, "results-latency.csv" using 1:4 with lines lt 2 title "Docker","results-latency.csv" using 1:4:5 with errorbars lt 2 notitle, "results-latency.csv" using 1:6 with lines lt 3 title "Docker NAT"      ,"results-latency.csv" using 1:6:7 with errorbars lt 3 notitle, "results-latency.csv" using 1:8 with lines lt 4 title "Docker NAT AUFS" ,"results-latency.csv" using 1:8:9 with errorbars lt 4 notitle,"results-percentage.csv" using (10+$0*20):2 with lp lt 5 axes x1y2 title "% loss trans/s Native/Docker"

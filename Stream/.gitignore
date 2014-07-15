@@ -1,4 +1,6 @@
 *.swp
+tmp*log
+*.exe
 *~
 *.o
 *.a

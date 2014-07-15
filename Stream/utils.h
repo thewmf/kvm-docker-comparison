@@ -14,7 +14,9 @@ typedef struct _HPCC_Params {
 
 /* The legacy of HPCC. A rotten way to define an allocator */
 
-#define HPCC_XMALLOC(t,s) ((t*)malloc(sizeof(t)*(s)))
+void * mmap_malloc (size_t n);
+
+#define HPCC_XMALLOC(t,s) ((t*)mmap_malloc(sizeof(t)*(s)))
 #define HPCC_free(p)	free(p)
 
 #define    Mabs( a_ )          ( ( (a_) <   0  ) ? -(a_) : (a_) )

@@ -61,7 +61,7 @@
  *          that should be good to about 5% precision.
  */
 
-static uint64_t VectorSize;
+static uint64_t VectorSize = 1650163200;
 # define N 2000000
 # define NTIMES 10
 # define OFFSET 0
@@ -247,7 +247,8 @@ HPCC_Stream(HPCC_Params *params, int doIO, double *copyGBs, double *scaleGBs, do
     double GiBs = 1073741824.0, curGBs;
 
     if (doIO) {
-      outFile = fopen( params->outFname, "w+" );
+      // outFile = fopen( params->outFname, "w+" );
+	  outFile = stdout;
       if (! outFile) {
         outFile = stderr;
         fprintf( outFile, "Cannot open output file.\n" );
@@ -255,7 +256,8 @@ HPCC_Stream(HPCC_Params *params, int doIO, double *copyGBs, double *scaleGBs, do
       }
     }
 
-    VectorSize = HPCC_LocalVectorSize( params, 3, sizeof(double), 0 ); /* Need 3 vectors */
+    // VectorSize = HPCC_LocalVectorSize( params, 3, sizeof(double), 0 ); /* Need 3 vectors */
+	// HARDCODED VectorSize
     // params->StreamVectorSize = VectorSize;
 
     a = HPCC_XMALLOC( double, VectorSize );
@@ -289,6 +291,7 @@ HPCC_Stream(HPCC_Params *params, int doIO, double *copyGBs, double *scaleGBs, do
              (3.0 * BytesPerWord) * ( (double) VectorSize / GiBs));
     fprintf( outFile, "Each test is run %d times, but only\n", NTIMES);
     fprintf( outFile, "the *best* time for each is used.\n");
+	fflush ( outFile);
     }
 
 #ifdef _OPENMP
