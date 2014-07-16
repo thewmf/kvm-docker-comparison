@@ -38,16 +38,21 @@ ssh $SSHOPTS spyre@$VMIP sudo apt-get -qq install -y nuttcp
 
 ssh $SSHOPTS spyre@$VMIP "route && ping -c2 10.71.1.28"
 
-echo "transmit client->server basic"
-ssh $SSHOPTS spyre@$VMIP nuttcp 10.71.1.28
+echo "TCP transmit client->server basic"
 ssh $SSHOPTS spyre@$VMIP nuttcp -t 10.71.1.28
-ssh $SSHOPTS spyre@$VMIP nuttcp -t -i1 10.71.1.28
-ssh $SSHOPTS spyre@$VMIP nuttcp -t -i1 -w4m 10.71.1.28
-echo "transmit client->server fancy"
-ssh $SSHOPTS spyre@$VMIP nuttcp -l8000 -t -w4m -i1 -N1 10.71.1.28
+#ssh $SSHOPTS spyre@$VMIP nuttcp -t -i1 10.71.1.28
+#ssh $SSHOPTS spyre@$VMIP nuttcp -t -i1 -w4m 10.71.1.28
 
-echo "receive server->client (this matters because we only measure the client)"
-ssh $SSHOPTS spyre@$VMIP nuttcp -l8000 -r -w4m -i1 -N1 10.71.1.28
+echo "TCP receive server->client (this matters because we only measure the client)"
+ssh $SSHOPTS spyre@$VMIP nuttcp -r 10.71.1.28
+
+#echo "UDP transmit client->server basic"
+#ssh $SSHOPTS spyre@$VMIP nuttcp -t -u 10.71.1.28
+#ssh $SSHOPTS spyre@$VMIP nuttcp -t -u -l1 10.71.1.28
+
+#echo "UDP receive server->client (this matters because we only measure the client)"
+#ssh $SSHOPTS spyre@$VMIP nuttcp -r -u 10.71.1.28
+#ssh $SSHOPTS spyre@$VMIP nuttcp -r -u -l1 10.71.1.28
 
 # TODO copy out results
 

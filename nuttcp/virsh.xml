@@ -3,10 +3,15 @@
   <uuid>72bfeaf4-ab92-4798-a055-d722b2d3222b</uuid>
   <memory unit='KiB'>1048576</memory>
   <currentMemory unit='KiB'>1048576</currentMemory>
-  <vcpu placement='static'>1</vcpu>
+  <vcpu placement='static'>4</vcpu>
   <resource>
     <partition>/machine</partition>
   </resource>
+  <features>
+    <acpi/>
+    <apic/>
+  </features>
+  <cpu mode='host-passthrough'/>
   <os>
     <type arch='x86_64' machine='pc-i440fx-1.5'>hvm</type>
     <boot dev='hd'/>
