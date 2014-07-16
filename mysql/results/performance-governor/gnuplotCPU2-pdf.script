@@ -1,9 +1,12 @@
 set terminal pdf font "Times-Roman,9" linewidth 4 rounded fontscale 1.0
 set output "MYSQL-CPU2.pdf" 
 set datafile separator ","
-set key center right
-set yrange [10:100]
-set ytics 20
-set ylabel "CPU utilization (%)"
-set xlabel "Number of threads"
-plot "results-cpu-bml.csv" using (10+$0*20):(100-$5) with lines lt 1 title "Native" ,"results-cpu-bml.csv" using (10+$0*20):(100-$5):6 with errorbars lt 1 notitle,"results-cpu-docker.csv" using (10+$0*20):(100-$5) with lines lt 2 title "Docker","results-cpu-docker.csv" using (10+$0*20):(100-$5):6 with errorbars lt 2 notitle,"results-cpu-docker-nofs.csv" using (10+$0*20):(100-$5) with lines lt 3 title "Docker NAT","results-cpu-docker-nofs.csv" using (10+$0*20):(100-$5):6 with errorbars lt 3 notitle,"results-cpu-docker-nofs-nonet.csv" using (10+$0*20):(100-$5) with lines lt 4 title "Docker NAT AUFS","results-cpu-docker-nofs-nonet.csv" using (10+$0*20):(100-$5):6 with errorbars lt 4 notitle
+set key top left
+set xrange [0:100]
+set xlabel "CPU utilization (%)"
+set ylabel "1000 Transactions/sec"
+set yrange [3:15]
+set y2range [11:15]
+set ytics 3
+set y2tics 1
+plot "results-cpu-reqs-bml.csv" using (100-$14):($2/1000) with linespoints lt 1 title "Native","results-cpu-reqs-docker.csv" using (100-$14):($4/1000) with linespoints lt 2 title "docker", "results-cpu-reqs-docker-nofs.csv" using (100-$14):($6/1000) with linespoints lt 3 title "Docker NAT","results-cpu-reqs-docker-nofs-nonet.csv" using (100-$14):($8/1000) with linespoints lt 4 title "Docker NAT AUFS", "results-cpu-reqs-bml.csv" using (100-$14):($2/1000) with linespoints lt 1 notitle axes x1y2,"results-cpu-reqs-docker.csv" using (100-$14):($4/1000) with linespoints lt 2 notitle axes x1y2, "results-cpu-reqs-docker-nofs.csv" using (100-$14):($6/1000) with linespoints lt 3 notitle axes x1y2,"results-cpu-reqs-docker-nofs-nonet.csv" using (100-$14):($8/1000) with linespoints lt 4 notitle axes x1y2
