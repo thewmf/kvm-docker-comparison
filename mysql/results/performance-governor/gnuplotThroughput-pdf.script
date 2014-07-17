@@ -1,12 +1,13 @@
 set terminal pdf font "Times-Roman,9" linewidth 4 rounded fontscale 1.0
 #set terminal pdfcairo font "Gill Sans,9" linewidth 4 rounded fontscale 1.0
 set output "MYSQL-THROUGHPUT.pdf" 
-set yrange [0:14]
+set yrange [2:14]
 set key right center
-set y2range [0:28]
+set y2range [0:72]
 set datafile separator ","
-set y2tics 4 
+set ytics 2 
+set y2tics 12 
 set ylabel "1000 Transactions/sec"
-set y2label "% loss Native/Docker (%)"
+set y2label "% loss Native (%)"
 set xlabel "Number of sysbench threads"
-plot "results-reqs.csv" using 1:($2/1000) with lines lt 1 title "Native"          ,"results-reqs.csv" using 1:($2/1000):($3/1000) with errorbars lt 1 notitle, "results-reqs.csv" using 1:($4/1000) with lines lt 2 title "Docker","results-reqs.csv" using 1:($4/1000):($5/1000) with errorbars lt 2 notitle, "results-reqs.csv" using 1:($6/1000) with lines lt 3 title "Docker NAT"      ,"results-reqs.csv" using 1:($6/1000):($7/1000) with errorbars lt 3 notitle, "results-reqs.csv" using 1:($8/1000) with lines lt 4 title "Docker NAT AUFS" ,"results-reqs.csv" using 1:($8/1000):($9/1000) with errorbars lt 4 notitle,"results-percentage.csv" using (10+$0*20):1 with lp lt 5 axes x1y2 title "% loss trans/s Native/Docker"
+plot "results-reqs.csv" using 1:($2/1000) with lines lt 1 title "Native"          , "results-reqs.csv" using 1:($2/1000):($3/1000) with errorbars lt 1 notitle, "results-reqs.csv" using 1:($4/1000) with lines lt 2 title "Docker", "results-reqs.csv" using 1:($4/1000):($5/1000) with errorbars lt 2 notitle, "results-reqs.csv" using 1:($6/1000) with lines lt 3 title "Docker NAT"      , "results-reqs.csv" using 1:($6/1000):($7/1000) with errorbars lt 3 notitle, "results-reqs.csv" using 1:($8/1000) with lines lt 4 title "Docker NAT AUFS" , "results-reqs.csv" using 1:($8/1000):($9/1000) with errorbars lt 4 notitle, "results-reqs.csv" using 1:($10/1000) with lines lt 5 title "KVM" , "results-reqs.csv" using 1:($10/1000):($11/1000) with errorbars lt 5 notitle, "results-reqs.csv" using 1:((1-$4/$2)*100) with lp lt 6 axes x1y2 title "% loss trans/s Native/Docker", "results-reqs.csv" using 1:((1-$10/$2)*100) with lp lt 7 axes x1y2 title "% loss trans/s Native/KVM"
