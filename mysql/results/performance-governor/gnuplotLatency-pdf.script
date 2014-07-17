@@ -4,10 +4,10 @@ set output "MYSQL-LATENCY.pdf"
 set yrange [0:60]
 set ytics 12 
 set key top left
-set y2range [0:20]
+set y2range [0:320]
 set datafile separator ","
-set y2tics 4 
+set y2tics 64 
 set ylabel "Latency (ms)"
-set y2label "% loss Native/Docker (%)"
+set y2label "% loss Native (%)"
 set xlabel "Number of sysbench threads"
-plot "results-latency.csv" using 1:10:11 with errorbars lt 5 notitle, "results-percentage.csv" using (10+$0*20):2 with lp lt 6 axes x1y2 title "% loss trans/s Native/Docker", "results-latency.csv" using 1:2 with lines lt 1 title "Native"          , "results-latency.csv" using 1:2:3 with errorbars lt 1 notitle, "results-latency.csv" using 1:4 with lines lt 2 title "Docker", "results-latency.csv" using 1:4:5 with errorbars lt 2 notitle, "results-latency.csv" using 1:6 with lines lt 3 title "Docker NAT"      , "results-latency.csv" using 1:6:7 with errorbars lt 3 notitle, "results-latency.csv" using 1:8 with lines lt 4 title "Docker NAT AUFS" , "results-latency.csv" using 1:8:9 with errorbars lt 4 notitle, "results-latency.csv" using 1:10 with lines lt 5 title "KVM" 
+plot "results-latency.csv" using 1:2 with lines lt 1 title "Native", "results-latency.csv" using 1:2:3 with errorbars lt 1 notitle, "results-latency.csv" using 1:4 with lines lt 2 title "Docker", "results-latency.csv" using 1:4:5 with errorbars lt 2 notitle, "results-latency.csv" using 1:6 with lines lt 3 title "Docker NAT", "results-latency.csv" using 1:6:7 with errorbars lt 3 notitle, "results-latency.csv" using 1:8 with lines lt 4 title "Docker NAT AUFS", "results-latency.csv" using 1:8:9 with errorbars lt 4 notitle, "results-latency.csv" using 1:10 with lines lt 5 title "KVM" , "results-latency.csv" using 1:10:11 with errorbars lt 5 notitle, "results-latency.csv" using 1:(($4/$2-1)*100) with lp lt 6 axes x1y2 title "% loss Native/Docker", "results-latency.csv" using 1:(($10/$2-1)*100) with lp lt 7 axes x1y2 title "% loss Native/KVM"
