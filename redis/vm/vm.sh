@@ -30,8 +30,8 @@ sudo virsh destroy redis
 #JCR: Unclear the following cmd needs sudo
 sudo virsh create virsh.xml
 
-echo "[DBG] remove the overlay (qemu will keep it open as needed)"
-sleep 10
+echo "[DBG] wait for VM to start, then remove the overlay (qemu will keep it open as needed)"
+sleep 15
 rm -f $IMG
 
 # ====================================================================
@@ -41,11 +41,15 @@ rm -f $IMG
 #ssh $USER@$CLIENT "cd /tmp/$USER/redis ; tar -xvf pack.tar.gz"
 
 # --------------------------------------
+echo "[DBG] Make sure CPUs are in performance mode"
+for x in /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor; do sudo sh -c "echo performance > $x"; done
+
+# --------------------------------------
 echo "[DBG] Install and start Redis in server"
 ssh $SSHOPTS spyre@$VMIP "mkdir -p /tmp/redis"
 scp $SSHOPTS -p ../container/redis/pack.tar.gz spyre@$VMIP:/tmp/redis
 ssh $SSHOPTS spyre@$VMIP "cd /tmp/redis && tar -xvf pack.tar.gz"
-ssh $SSHOPTS spyre@$VMIP "cd /tmp/redis/SOURCE/redis-2.8.13-x86_64-Ubuntu-13.10/ && ./src/redis-server -d --port 6379"
+ssh $SSHOPTS spyre@$VMIP "cd /tmp/redis/SOURCE/redis-2.8.13-x86_64-Ubuntu-13.10/ && ./src/redis-server --daemonize yes --bind $VMIP --port 6379"
 
 # --------------------------------------
 echo "[DBG] Test connection between server and client"
