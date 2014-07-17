@@ -4,7 +4,7 @@ BEGIN {
 	numStops = -1;
 	numFile = 0;
 	FS=",";
-	OUTFILE="decoded-bml"numStops"-"numFile".csv";
+	OUTFILE="decoded-"numStops".csv";
 }
 
 $1 ~ /^\"/ {
@@ -25,13 +25,9 @@ $1 ~ /^[0-9][.0-9]*$/ && $1 < 2.0 {
 			close(OUTFILE);
 		}
 		numStops++;
-		if (numStops == 17) {
-			numStops=0;
-			numFile++;
-		}
-		OUTFILE="decoded-"numStops"-"numFile".csv";
-		print header > OUTFILE;
+		OUTFILE="decoded-"numStops".csv";
 		zeroLow = 1;
+		printHeader = 1;
 	}
 	else {
 	#	if (numStops > 0) {
@@ -50,9 +46,11 @@ $1 >= 2.0 {
 	{
 		if (skipFirst > 0) {
 			nSum += 1;
-			sumIdle += $3;
-			sumSqIdle += $3*$3;
-			print numStops","oldData > OUTFILE;
+			if (printHeader) {
+				print header > OUTFILE;
+				printHeader = 0;
+			}
+			print oldData > OUTFILE;
 		}
 		skipFirst = 1;
 	}
