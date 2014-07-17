@@ -16,11 +16,15 @@ conn = "?"
 experiment = "?"
 rps = "?"
 
+reCurses = re.compile(r'^.*\r')
 reRunCon = re.compile(r'Run #([0-9]+): Connections ([0-9]+)')
 reExpt   = re.compile(r'===== ([A-Z_]+) =====')
 reRPS    = re.compile(r'([0-9.]+) requests per second')
 
 for line in f:
+
+  # Remove curses crazyness
+  line = reCurses.sub("",line)
 
   # Strip out end-of-line
   line = line.replace("\n", "")
