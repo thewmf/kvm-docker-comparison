@@ -5,4 +5,4 @@ set datafile separator ","
 set key top center
 set ylabel "Latency (ms)"
 set xlabel "Throughput in Transactions/s"
-plot "results-total.csv" using 2:12 with lp lt 1 title "Native", "results-total.csv" using 4:14 with lp lt 2 title "Docker net=host volume","results-total.csv" using 6:16 with lp lt 3 title "Docker NAT volume", "results-total.csv" using 8:18 with lp lt 4 title "Docker NAT AUFS", "results-total.csv" using 10:20 with lp lt 5 title "KVM gcow"
+plot "results-total.csv" using 2:12 with lp lt 1 title "Native", "results-total.csv" using 4:14 with lp lt 2 title "Docker net=host volume","results-total.csv" using 6:16 with lp lt 3 title "Docker NAT volume", "results-total.csv" using 8:18 with lp lt 4 title "Docker NAT AUFS", "results-total.csv" using 10:20 with lp lt 5 title "KVM qcow"
