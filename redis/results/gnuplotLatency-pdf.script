@@ -1,6 +1,6 @@
 set terminal pdf font "Times-Roman,9" linewidth 4 rounded fontscale 1.0
 #set terminal pdfcairo font "Gill Sans,9" linewidth 4 rounded fontscale 1.0
-set output "REDIS-LATENCY.pdf" 
+set output "redis-latency.pdf" 
 set key top left
 set datafile separator ","
 set ylabel "Latency (ms)"
