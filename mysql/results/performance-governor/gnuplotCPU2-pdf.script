@@ -5,8 +5,14 @@ set key top left
 set xrange [0:100]
 set xlabel "CPU utilization (%)"
 set ylabel "1000 Transactions/sec"
-set yrange [3:15]
-set y2range [11:15]
-set ytics 3
-set y2tics 1
-plot "results-cpu-reqs-bml.csv" using (100-$14):($2/1000) with linespoints lt 1 title "Native","results-cpu-reqs-docker.csv" using (100-$14):($4/1000) with linespoints lt 2 title "docker", "results-cpu-reqs-docker-nofs.csv" using (100-$14):($6/1000) with linespoints lt 3 title "Docker NAT","results-cpu-reqs-docker-nofs-nonet.csv" using (100-$14):($8/1000) with linespoints lt 4 title "Docker NAT AUFS", "results-cpu-reqs-bml.csv" using (100-$14):($2/1000) with linespoints lt 1 notitle axes x1y2,"results-cpu-reqs-docker.csv" using (100-$14):($4/1000) with linespoints lt 2 notitle axes x1y2, "results-cpu-reqs-docker-nofs.csv" using (100-$14):($6/1000) with linespoints lt 3 notitle axes x1y2,"results-cpu-reqs-docker-nofs-nonet.csv" using (100-$14):($8/1000) with linespoints lt 4 notitle axes x1y2
+set yrange [2:14]
+set y2range [12.5:14]
+set ytics 2
+set y2tics .25
+set arrow 1 from 80,2 to 80,10 nohead
+set arrow 2 from 80,10 to 100,10 nohead
+set arrow 3 from 80,12.5 to 80,13.5 nohead
+set arrow 4 from 80,12.5 to 100,12.5 nohead
+set arrow 5 from 80,13.5 to 100,13.5 nohead
+set arrow 6 from 97,12.5 to 97,10 
+plot "results-cpu-reqs-bml.csv" using (100-$16):($2/1000) with linespoints lt 1 title "Native", "results-cpu-reqs-docker.csv" using (100-$16):($4/1000) with linespoints lt 2 title "Docker net=host volume", "results-cpu-reqs-docker-nofs.csv" using (100-$16):($6/1000) with linespoints lt 3 title "Docker NAT volume", "results-cpu-reqs-docker-nofs-nonet.csv" using (100-$16):($8/1000) with linespoints lt 4 title "Docker NAT AUFS" , "results-cpu-reqs-KVM.csv" using (100-$16):($10/1000) with linespoints lt 5 title "KVM qcow", "results-cpu-reqs-bml.csv" using (100-$16):($2/1000) with linespoints lt 1 notitle axes x1y2, "results-cpu-reqs-docker.csv" using (100-$16):($4/1000) with linespoints lt 2 notitle axes x1y2, "results-cpu-reqs-docker-nofs.csv" using (100-$16):($6/1000) with linespoints lt 3 notitle axes x1y2, "results-cpu-reqs-docker-nofs-nonet.csv" using (100-$16):($8/1000) with linespoints lt 4 notitle axes x1y2, "results-cpu-reqs-KVM.csv" using (100-$16):($10/1000) with linespoints lt 5 notitle axes x1y2
