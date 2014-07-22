@@ -1,0 +1,8 @@
+set terminal pdf font "Times-Roman,9" linewidth 4 rounded fontscale 1.0
+#set terminal pdfcairo font "Gill Sans,9" linewidth 4 rounded fontscale 1.0
+set output "redis-throughput.pdf" 
+set key bottom right
+set datafile separator ","
+set ylabel "Thoughput (K OP/s)"
+set xlabel "Number of client threads"
+plot "Redis-throughput.lf" using 1:($5/1000) with lines lt 1 title "Native", "Redis-throughput.lf" using 1:($5/1000):($3/1000):($4/1000) with errorbars lt 1 notitle, "Redis-throughput.lf" using 1:($10/1000) with lines lt 2 title "Docker NAT", "Redis-throughput.lf" using 1:($10/1000):($8/1000):($9/1000) with errorbars lt 2 notitle, "Redis-throughput.lf" using 1:($15/1000) with lines lt 3 title "Docker net=host", "Redis-throughput.lf" using 1:($15/1000):($13/1000):($14/1000) with errorbars lt 3 notitle, "Redis-throughput.lf" using 1:($20/1000) with lines lt 4 title "KVM", "Redis-throughput.lf" using 1:($20/1000):($18/1000):($19/1000) with errorbars lt 4 notitle, 
