@@ -1,0 +1,37 @@
+Mon Jul 28 21:09:56 UTC 2014
+Intel(R) Optimized LINPACK Benchmark data
+
+Current date/time: Mon Jul 28 21:09:56 2014
+
+CPU frequency:    3.486 GHz
+Number of CPUs: 1
+Number of cores: 16
+Number of threads: 16
+
+Parameters are set to:
+
+Number of tests: 1
+Number of equations to solve (problem size) : 4500 
+Leading dimension of array                  : 4500 
+Number of trials to run                     : 3    
+Data alignment value (in Kbytes)            : 1    
+
+Maximum memory requested that can be used=162091024, at the size=4500
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+4500   4500   1      0.468      129.7567 2.410979e-11 4.146841e-02   pass
+4500   4500   1      0.452      134.4415 2.410979e-11 4.146841e-02   pass
+4500   4500   1      0.447      136.0792 2.410979e-11 4.146841e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+4500   4500   1       133.4258 136.0792
+
+Residual checks PASSED
+
+End of tests
+
+Done: Mon Jul 28 21:10:02 UTC 2014
