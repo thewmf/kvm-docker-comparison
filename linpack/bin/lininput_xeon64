@@ -3,5 +3,5 @@ Intel(R) Optimized LINPACK Benchmark data
 1                     # number of tests
 45000 # problem sizes
 45000 # leading dimensions
-3 # times to run a test
+10 # times to run a test
 1 # alignment values (in KBytes)
