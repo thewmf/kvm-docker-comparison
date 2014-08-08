@@ -25,15 +25,18 @@ DIR=`pwd`
 ssh $CLIENT docker build -t nuttcp $DIR
 
 # transmit client->server
-echo "client to server (NAT)"
-ssh $CLIENT docker run nuttcp -l8000 -t -w4m -i1 -N1 10.71.0.28
+echo "client to server (native)"
+ssh $CLIENT sudo perf stat -a nuttcp -t 10.71.0.28
+
+echo "client to server (Docker NAT)"
+ssh $CLIENT sudo perf stat -a docker run nuttcp -t 10.71.0.28
 
 #echo "client to server (bridged)"
 #ssh $CLIENT pipework vanilla $(docker run -d nuttcp -l8000 -t -w4m -i1 -N1 10.71.1.28) 10.71.1.24
 
 # receive server->client (this matters because we only measure the client)
-# XXX this doesn't work due to NAT?
-#ssh $CLIENT docker run nuttcp -l8000 -r -w4m -i1 -N1 10.71.0.28
+echo "server to client (Docker NAT)"
+ssh $CLIENT docker run -p 5000:5000 -p 5001:5001 nuttcp -P5000 -p5001-r 10.71.0.28
 
 # clean up
 ssh $SERVER killall nuttcp
