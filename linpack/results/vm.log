@@ -87,3 +87,141 @@ End of tests
 
 Done: Fri Jul 18 07:00:00 UTC 2014
 
+--------------------------------------------------------------------------------
+Running linpack, started at Tue Aug 19 14:47:09 CDT 2014
+--------------------------------------------------------------------------------
+Running linpack, started at Tue Aug 19 14:48:03 CDT 2014
+This is a SAMPLE run script for SMP LINPACK. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+Tue Aug 19 19:48:03 UTC 2014
+Intel(R) Optimized LINPACK Benchmark data
+
+Current date/time: Tue Aug 19 19:48:03 2014
+
+CPU frequency:    2.390 GHz
+Number of CPUs: 2
+Number of cores: 16
+Number of threads: 32
+
+Parameters are set to:
+
+Number of tests: 1
+Number of equations to solve (problem size) : 45000
+Leading dimension of array                  : 45000
+Number of trials to run                     : 10   
+Data alignment value (in Kbytes)            : 1    
+
+Maximum memory requested that can be used=16200901024, at the size=45000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+--------------------------------------------------------------------------------
+Running linpack, started at Tue Aug 19 15:39:19 CDT 2014
+This is a SAMPLE run script for SMP LINPACK. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+Tue Aug 19 20:39:20 UTC 2014
+Intel(R) Optimized LINPACK Benchmark data
+
+Current date/time: Tue Aug 19 20:39:20 2014
+
+CPU frequency:    2.390 GHz
+Number of CPUs: 2
+Number of cores: 16
+Number of threads: 32
+
+Parameters are set to:
+
+Number of tests: 1
+Number of equations to solve (problem size) : 45000
+Leading dimension of array                  : 45000
+Number of trials to run                     : 10   
+Data alignment value (in Kbytes)            : 1    
+
+Maximum memory requested that can be used=16200901024, at the size=45000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+--------------------------------------------------------------------------------
+Running linpack, started at Wed Aug 20 19:10:06 CDT 2014
+This is a SAMPLE run script for SMP LINPACK. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+Thu Aug 21 00:10:07 UTC 2014
+Intel(R) Optimized LINPACK Benchmark data
+
+Current date/time: Thu Aug 21 00:10:07 2014
+
+CPU frequency:    3.087 GHz
+Number of CPUs: 2
+Number of cores: 16
+Number of threads: 32
+
+Parameters are set to:
+
+Number of tests: 1
+Number of equations to solve (problem size) : 45000
+Leading dimension of array                  : 45000
+Number of trials to run                     : 10   
+Data alignment value (in Kbytes)            : 1    
+
+Maximum memory requested that can be used=16200901024, at the size=45000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+45000  45000  1      213.812    284.1467 1.876477e-09 3.301464e-02   pass
+45000  45000  1      213.439    284.6431 1.876477e-09 3.301464e-02   pass
+45000  45000  1      213.846    284.1015 1.876477e-09 3.301464e-02   pass
+45000  45000  1      213.430    284.6555 1.876477e-09 3.301464e-02   pass
+45000  45000  1      213.771    284.2010 1.876477e-09 3.301464e-02   pass
+45000  45000  1      214.126    283.7298 1.876477e-09 3.301464e-02   pass
+--------------------------------------------------------------------------------
+Running linpack, started at Thu Aug 21 13:16:49 CDT 2014
+This is a SAMPLE run script for SMP LINPACK. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+Thu Aug 21 18:16:49 UTC 2014
+Intel(R) Optimized LINPACK Benchmark data
+
+Current date/time: Thu Aug 21 18:16:49 2014
+
+CPU frequency:    2.389 GHz
+Number of CPUs: 2
+Number of cores: 16
+Number of threads: 32
+
+Parameters are set to:
+
+Number of tests: 1
+Number of equations to solve (problem size) : 45000
+Leading dimension of array                  : 45000
+Number of trials to run                     : 10   
+Data alignment value (in Kbytes)            : 1    
+
+Maximum memory requested that can be used=16200901024, at the size=45000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+45000  45000  1      213.930    283.9900 1.876477e-09 3.301464e-02   pass
+45000  45000  1      212.347    286.1081 1.876477e-09 3.301464e-02   pass
+45000  45000  1      214.860    282.7605 1.876477e-09 3.301464e-02   pass
+45000  45000  1      212.495    285.9082 1.876477e-09 3.301464e-02   pass
+45000  45000  1      215.210    282.3018 1.876477e-09 3.301464e-02   pass
+45000  45000  1      213.701    284.2944 1.876477e-09 3.301464e-02   pass
+45000  45000  1      213.713    284.2790 1.876477e-09 3.301464e-02   pass
+45000  45000  1      212.457    285.9597 1.876477e-09 3.301464e-02   pass
+45000  45000  1      215.194    282.3220 1.876477e-09 3.301464e-02   pass
+45000  45000  1      213.875    284.0637 1.876477e-09 3.301464e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+45000  45000  1       284.1987 286.1081
+
+Residual checks PASSED
+
+End of tests
+
+Done: Thu Aug 21 19:17:02 UTC 2014
+
